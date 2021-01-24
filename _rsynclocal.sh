@@ -1,1 +1,1 @@
-rsync -av _site/ /var/www/rlw7w.uk
+rsync -rv _site/ /var/www/rlw7w.uk

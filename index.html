@@ -4,15 +4,24 @@ nav_order: 1
 title: Home
 ---
 
-{% for post in paginator.posts %}
-<article>
-      <h2>{{ post.title }}</h2>
-      <span class="fs-3">{{ post.date | date_to_string }}</span>
-      {{ post.content }}
-</article>
-{% endfor %}
+{% raw %}
+<div class="content"
+    data-infinite-scroll='{
+        "path": ".next",
+        "append": ".content",
+        "hideNav": ".pagination",
+        "history": false,
+        "debug": true
+    }'>
+{% endraw %}
+    {% for post in paginator.posts %}
+    <article>
+          <h2>{{ post.title }}</h2>
+          <span class="fs-3">{{ post.date | date_to_string }}</span>
+          {{ post.content }}
+    </article>
+    {% endfor %}
 
-<!-- pagination -->
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
@@ -32,9 +41,12 @@ title: Home
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    <a class="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
   {% else %}
     <span>Next &raquo;</span>
   {% endif %}
 </div>
 {% endif %}
+
+</div>
+

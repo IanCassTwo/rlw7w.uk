@@ -16,5 +16,9 @@ This by far took me the most time to resolve satisfactorily. The Omega alternato
 
 So, if I had to mount it in front of the engine, how would I mount it & plan the belt routing? I figured there's no way I could mount it in front of the engine the correct way around. There's simply nothing to bolt it to. However, I did find 3 bolt holes behind the cambelt cover that were used for engine mounts when the car was in front wheel drive orientation. This gave me the idea that I could create a bracket to reverse mount the alternator. I went through several bracket shapes & lots of consideration for belt path so I could get optimal wrap around all pulleys and still maintain tension. I then went to the breakers yard and found a small, powerful alternator with the correct bracket position and the correct pulley. The one I found was off a Ford. I didn't realise it at the time but it was a "smart" alternator that can vary its output according to the ECU but without the ECU, it runs as a 1-wire alternator outputting 90 amps.
 
-{% picture mediumthumb IMG_20190420_155223.jpg %}{% picture mediumthumb IMG_20190425_123945.jpg %}{% picture mediumthumb IMG_20190430_195235.jpg %}{% picture mediumthumb IMG_20190430_195245.jpg %}{% picture mediumthumb IMG_20190430_195253.jpg %}
+{% picture mediumthumb IMG_20190420_155223.jpg %}
+{% picture mediumthumb IMG_20190425_123945.jpg %}
+{% picture mediumthumb IMG_20190430_195235.jpg %}
+{% picture mediumthumb IMG_20190430_195245.jpg %}
+{% picture mediumthumb IMG_20190430_195253.jpg %}
 
