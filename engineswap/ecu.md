@@ -26,5 +26,5 @@ The pins below are what you'd find in the original Omega engine loom plug.
 In addition, there's a large green plug that contains the permanent live
 power input for the ECU. This should be a high current wire.
 
-{% picture mediumthumb Pinout.jpg %}
-{% picture mediumthumb 7_engine_ecu_&_fuel_pump.png %}
+{% picture Pinout.jpg %}
+{% picture 7_engine_ecu_&_fuel_pump.png %}

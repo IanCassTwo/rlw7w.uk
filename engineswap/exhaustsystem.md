@@ -12,6 +12,6 @@ The exhaust fitted remarkably well. The V8 splitter pipe was very close to my ex
 
 I also made a small amendment to the rear section. Out of the box, the bend where the exhaust pitches upwards from the under-axle section to the rear box was a little too far forward for my liking. The handbrake cable touched at full droop. It also put the end of the tail pipe just under the rear bumper which contributed towards noise in the cabin. I purchased a pre-flared and slotted 2.25" x 6" stainless steel repair section from ebay & used it to extend the rear section by approx 3". This gave me far more clearance to the handbrake cable and quietened the exhaust noise in the cabin noticeably.
 
-{% picture mediumthumb IMG_20191212_193138.jpg %}
-{% picture mediumthumb Bsmgbv8cbpic1_2.jpg %}
+{% picture largethumb IMG_20191212_193138.jpg %}
+{% picture largethumb Bsmgbv8cbpic1_2.jpg %}
 

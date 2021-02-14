@@ -25,5 +25,5 @@ The wiring is as follows:-
 
 Once this is fitted, you'll need to insert the ECU transponder chip into the key fob. The easiest way to do this is to get a Landrover Discovery key blank. This has the same key blade as the MGB & has a space for the transponder chip to be inserted.
 
-{% picture mediumthumb IMG_20200129_185223.jpg %}
-{% picture mediumthumb Key.png %}
+{% picture largethumb IMG_20200129_185223.jpg %}
+{% picture largethumb Key.png %}

@@ -13,4 +13,4 @@ The alternator that I've fitted is a 1-wire unit which means that the charge lig
 
 The starter motor itself is driven by the original MGB starter signal via the starter relay. This has not changed.
 
-{% picture largethumb 2_starting_&_charging.png %}
+{% picture 2_starting_&_charging.png %}

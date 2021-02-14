@@ -12,5 +12,5 @@ the bracket because it doubles up as a lifting eye. This means you'll
 need to use your angle grinder to cut off the shelf that the coil pack
 sits on.
 
-{% picture mediumthumb IMG_20190330_095906.jpg %}
+{% picture IMG_20190330_095906.jpg %}
 

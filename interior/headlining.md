@@ -13,6 +13,6 @@ Fitting was easy for me because I was in the process of fitting a new steel roof
 
 I finished the job by replacing the old vinyl that covered the frame beneath the headlining with new [black leather-effect vinyl](https://www.ebay.co.uk/itm/Bentley-Plain-Soft-FR-Vinyl-Smooth-Grain-Vehicle-Faux-Leather-Upholstery-Fabric/362618616938). I also used the same 2mm headlining material to cover the trim piece that fits over the hatch hinges towards the rear of the roof.
 
-{% picture mediumthumb IMG_20201211_132412.jpg %}
-{% picture mediumthumb IMG_20201225_135106.jpg %}
+{% picture largethumb IMG_20201211_132412.jpg %}
+{% picture largethumb IMG_20201225_135106.jpg %}
 

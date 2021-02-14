@@ -5,14 +5,7 @@ title: Home
 ---
 
 {% raw %}
-<div class="content"
-    data-infinite-scroll='{
-        "path": ".next",
-        "append": ".content",
-        "hideNav": ".pagination",
-        "history": false,
-        "debug": true
-    }'>
+<div class="content"'>
 {% endraw %}
     {% for post in paginator.posts %}
     <article>
@@ -49,4 +42,24 @@ title: Home
 {% endif %}
 
 </div>
+
+<script type="text/javascript" src="/assets/js/infinite-scroll.pkgd.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+        let infScroll = new InfiniteScroll( '.content', {
+          path: '.next',
+          append: '.content',
+          hideNav: '.pagination',
+          history: false,
+          debug: false,
+        });
+
+        infScroll.on( 'append', function( body, path, items, response ) {
+                console.log("append");
+                initLightbox();
+        });
+
+});
+</script>
+
 

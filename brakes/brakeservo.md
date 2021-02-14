@@ -19,5 +19,5 @@ All this points to a torn diaphragm inside the servo.
 
 The new servo was the cheapest I could find on ebay. Even though it was supposedly for an MGB, I found that the 4 bolts that hold it to the pedal box were wrongly spaced. I had to drill out the holes to 10mm to give some additional clearance. I suspect that this servo had either been mistakenly made with metric spacing, or it was actually from another vehicle that happened to use the same master cylinder but used metric throughout. Either way, it works well once fitted.
 
-{% picture mediumthumb Brake-servo-testing.jpg %}
-{% picture mediumthumb New-servo.jpg %}
+{% picture largethumb Brake-servo-testing.jpg %}
+{% picture largethumb New-servo.jpg %}

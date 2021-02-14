@@ -16,4 +16,4 @@ My initial attempt at a solution was to mount a 3-wire hall effect speed sensor 
 
 My next plan is to use a [universal traction control wheel](http://trigger-wheels.com/store/contents/en-uk/p155.html) bolted to the prop flange along with a Vauxhall ABS sensor and a Vauxhall speed control relay to improve the action of the speed sensing circuit. I believe this will work with both the ECU and the VDO speedo. Watch this space for updates.
 
-{% picture mediumthumb IMG_20200417_192411.jpg %}
+{% picture IMG_20200417_192411.jpg %}

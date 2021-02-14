@@ -13,8 +13,5 @@ the coil in the relay. You can easily fool the ECU by bridging the SAI
 connector with a 100-200 Ohm resistor. It's not too critical what value
 you use provided it adds a little resistance.
 
-  [1024}}]: Acdn.z22se.com_userpix_13_EGR_cheater_version_2_1.jpg
-    "fig:1024}}"
-  [*don't* remove because it's saving you money]: http://www.tuneruniversity.com/blog/2012/05/dont-block-or-remove-the-egr-valve-its-saving-you-money/
   [Secondary Air Injection (SAI)]: https://en.wikipedia.org/wiki/Secondary_air_injection
 
