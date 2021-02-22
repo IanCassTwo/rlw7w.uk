@@ -11,7 +11,7 @@ presets:
     link_source: true # wrap images in a link to the original source image.
     dimension_attributes: true # Page reflow begone!
 
-    formats: [avif, webp, original] # Must be an array, and order matters.
+    formats: [webp, original] # Must be an array, and order matters.
 
     widths: [200, 400, 800, 1600] # Must be an array.
     media_widths: # Because a cell phone doesn't want 1600 pixels.
@@ -29,7 +29,7 @@ presets:
     attributes:
       parent: 'data-downloadable="true"'
       picture: 'class="awesome" data-volume="11"'
-      img: 'class="default"'
+      img: 'class="default" loading="lazy"'
       a: 'class="lightbox-image"'
 
   # This is an example of how you would create a 'multiplier' based srcset;
@@ -38,59 +38,59 @@ presets:
   # images to devices with higher pixel ratios.
   icon:
     base_width: 20 # How wide the 1x image should be.
-    formats: [avif, webp, original] # Must be an array, and order matters.
+    formats: [webp, original] # Must be an array, and order matters.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 20
     attributes:
-      img: 'class="icon"'
+      img: 'class="icon" loading="lazy"'
       a: 'class="lightbox-image"'
 
   blog:
     base_width: 480 # How wide the 1x image should be.
     link_source: true # wrap images in a link to the original source image.
-    formats: [avif, webp, original] # Must be an array, and order matters.
+    formats: [webp, original] # Must be an array, and order matters.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 480
     fallback_format: original
     attributes:
-      img: 'class="blog"'
+      img: 'class="blog" loading="lazy"'
       a: 'class="lightbox-image"'
 
   largethumb:
     base_width: 460 # How wide the 1x image should be.
     link_source: true # wrap images in a link to the original source image.
-    formats: [avif, webp, original] # Must be an array, and order matters.
+    formats: [webp, original] # Must be an array, and order matters.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 460
     attributes:
-      img: 'class="largethumb" style="height: 274px;"' 
+      img: 'class="largethumb" loading="lazy" style="height: 274px;"' 
       a: 'class="lightbox-image"'
 
   mediumthumb:
     base_width: 260 # How wide the 1x image should be.
     link_source: true # wrap images in a link to the original source image.
-    formats: [avif, webp, original] # Must be an array, and order matters.
+    formats: [webp, original] # Must be an array, and order matters.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 260
     attributes:
-      img: 'class="mediumthumb" style="height: 182px;"'
+      img: 'class="mediumthumb" loading="lazy" style="height: 182px;"'
       a: 'class="lightbox-image"'
 
   thumb:
     base_width: 160 # How wide the 1x image should be.
-    formats: [avif, webp, original] # Must be an array, and order matters.
+    formats: [webp, original] # Must be an array, and order matters.
     link_source: true # wrap images in a link to the original source image.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 160
     attributes:
-      img: 'class="thumb" style="height: 120px;"'
+      img: 'class="thumb" loading="lazy" style="height: 120px;"'
       a: 'class="lightbox-image"'
 
   # Here's an example of how you'd configure jekyll-picture-tag to work with
   # something like lazyload: https://github.com/verlok/lazyload
   lazy:
     markup: data_auto
-    formats: [avif, webp, original]
+    formats: [webp, original]
     widths: [200, 400, 600, 800]
     noscript: true # add a fallback image inside a <noscript> tag.
     attributes: 

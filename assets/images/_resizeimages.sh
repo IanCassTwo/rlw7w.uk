@@ -12,7 +12,7 @@ do
 	fi
 
 	if [ ! -f "resized/$f.avif" ]; then
-		convert -verbose "$i[x1080>]" -set filename:base "%[basename]" "resized/%[filename:base].avif"&
+		convert -verbose -quality 62 "$i[x1080>]" -set filename:base "%[basename]" "resized/%[filename:base].avif"&
 	fi
 	wait
 done
@@ -30,7 +30,7 @@ do
 	fi
 
 	if [ ! -f "resized/$f.avif" ]; then
-		convert -verbose "$i[x1080>]" -set filename:base "%[basename]" "resized/%[filename:base].avif"&
+		convert -verbose -quality 62 "$i[x1080>]" -set filename:base "%[basename]" "resized/%[filename:base].avif"&
 	fi
 	wait
 done

@@ -1,13 +1,13 @@
 <p><a href="#top" id="back-to-top">Back to top</a></p>
 <p class="text-small text-grey-dk-100 mb-0">Copyright &copy; 2020-2021 Ian Cass</p> <div class="d-flex mt-2"> </div>
 
-<script type="text/javascript" src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
+<script type="text/javascript" src="/assets/js/just-the-docs.js?{{site.time | date: '%s'}}"></script>
 {% if site.search_enabled != false %}
-  <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
+  <script type="text/javascript" src="/assets/js/vendor/lunr.min.js?{{site.time | date: '%s'}}"></script>
 {% endif %}
 
-<link rel="stylesheet" href="/assets/css/lightbox.css">
-<script type="text/javascript" src="/assets/js/lightbox.js"></script>
+<link rel="stylesheet" href="/assets/css/lightbox.css?{{site.time | date: '%s'}}">
+<script type="text/javascript" src="/assets/js/lightbox.js?{{site.time | date: '%s'}}"></script>
 
 {% if site.ga_tracking != nil %}
 <script src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>

@@ -96,6 +96,7 @@ GEM
 
 PLATFORMS
   arm-linux
+  ruby
 
 DEPENDENCIES
   jekyll (~> 4.2.0)
