@@ -1,0 +1,26 @@
+---
+layout: page
+nav_order: 1
+title: Vin Decoder
+parent: Tools
+---
+<script type="text/javascript" src="/assets/js/vindecoder.js?{{site.time | date: '%s'}}"/>
+
+<h1>VIN Decoder</h1>
+<p>This will decode MGB VIN numbers and tell you more about your car</p>
+<p>Please enter your full VIN number</p>
+<input type="text" name="vin" id="vin" required>
+<button id="button" type="button" onclick="vindecoder()">Submit</button>
+<p><em>No data will be submitted to this website</em></p>
+
+<script>
+var input = document.getElementById("vin");
+input.addEventListener("keyup", function(event) {
+console.log(event.keyCode);
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("button").click();
+  }
+});
+</script>
+<p id="demo"</p>

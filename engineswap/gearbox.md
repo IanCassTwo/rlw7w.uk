@@ -33,5 +33,5 @@ Gear ratios are as follows:-
 | 5    | 0.81:1 |
 | rev  | 3.40:1 |
 
-{% picture Gearspeeds2.png %}
-{% picture Geargraph2.png %}
+{% picture blog Gearspeeds2.png %}
+{% picture blog Geargraph2.png %}

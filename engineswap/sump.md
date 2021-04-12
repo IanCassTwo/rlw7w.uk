@@ -9,4 +9,6 @@ The first challenge was the large and bulbous front-drop sump that the engine ca
 
 Note, The sump bolts are really not done up very tight at all, so don't overtighten.
 
-{% picture mediumthumb IMG_20190302_123315.jpg %}{% picture mediumthumb IMG_20190302_123323.jpg %}{% picture mediumthumb IMG_20190316_180534.jpg %}
+{% picture mediumthumb IMG_20190302_123315.jpg %}
+{% picture mediumthumb IMG_20190302_123323.jpg %}
+{% picture mediumthumb IMG_20190316_180534.jpg %}

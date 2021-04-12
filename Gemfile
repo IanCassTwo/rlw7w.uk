@@ -15,12 +15,14 @@ gem "jekyll", "~> 4.2.0"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+#  gem "mime-types-data", git: "https://github.com/IanCassTwo/mime-types-data",  branch: 'avif'
+#  gem "jekyll-feed", "~> 0.12"
   gem 'jekyll_picture_tag', "~> 1"
   gem 'jekyll-target-blank'
   gem 'jekyll-paginate'
-  gem 'jekyll-brotli'
-  gem 'jekyll-zopfli'
+#  gem 'jekyll-brotli'
+#  gem 'jekyll-zopfli'
+#  gem 'jekyll-minifier'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

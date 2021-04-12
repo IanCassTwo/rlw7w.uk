@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Door Locks
-nav_order: 9
+parent: Body Shell
 ---
 ## Door Locks
 
@@ -20,9 +20,8 @@ Note, these locks are ''slightly'' larger than the standard locks so will need t
 
 The cam that comes with the lock will generally be a straight arm which is entirely unsuitable, so a new cam will need to be made. The cam needs to have 2 arms on it. One arm needs to sit just below the locking lever when the key is at 12 o'clock and the car is unlocked, and the other needs to sit just above the locking arm when the key is at 12 o'clock and the car is locked. This is so that the arms can actuate the locking lever when you turn the key but still allow room for the arm to move when you lock/unlock from inside the car.
 
-I've mocked up a cam from scrap metal which looks really ugly but works well enough for now. Once I'm entirely happy, I'll consider getting making something a little prettier.
 
-{% picture mediumthumb IMG_20200715_133642.jpg %}
-{% picture mediumthumb IMG_20200715_133627.jpg %}
-{% picture mediumthumb IMG_20200715_133617.jpg %}
+{% picture blog IMG_20200715_133642.jpg %}
+
+{% picture blog PXL_20210313_122336147.jpg %}
 

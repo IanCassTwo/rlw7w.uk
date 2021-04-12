@@ -31,7 +31,5 @@ The extra length, however, did provide some frustration when fitting.  It's simp
 {% picture mediumthumb IMG_20191104_180210.jpg %}
 {% picture mediumthumb IMG_20191105_192849.jpg %}
 {% picture mediumthumb IMG_20191105_192908.jpg %}
-{% picture mediumthumb IMG_20191105_192924.jpg %}
-{% picture mediumthumb IMG_20191105_193022.jpg %}
 
   [Dave Mac Propshafts Ltd]: https://davemacprops.co.uk/

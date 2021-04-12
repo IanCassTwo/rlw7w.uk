@@ -9,7 +9,7 @@ There's not many modern features I miss on my MGB but central locking is one of 
 ### Door Solenoids
 The basic function of both the drivers and passenger door solenoids is to push or pull the locking mechanism to lock or unlock the door. To do this, they have 2 wires that take a positive and a ground (generally green & blue). The polarity of these wires is swapped depending on whether you want them to lock or unlock. These wires engergize a motor or a relay to cause a rod to be pushed or pulled. This rod is joined to the MGB lock operating rod using a clamp.
 
-{% picture solenoid.jpg %}
+{% picture blog  solenoid.jpg %}
 
 #### Drivers Door
 The drivers door solenoid takes its input on green and blue wires from either the remote central locking ECU or from the alarm unit if that has a central locking function. This allows the solenoid to be energised to either lock or unlock based on a button press on a remote. However, the drivers door solenoid doesn't have to be electrically operated (even if these wires are connected). It can be manually operated from the key or from the locking lever inside the cabin. 
@@ -43,14 +43,15 @@ This 6-pin relay allows the passenger door solenoid to mirror the actions of the
 
 *Note, experiment with orientation of pins 1M & 2M until correct operation of passenger lock is achieved*
 
-{% picture relay.jpg %}
+{% picture blog relay.jpg %}
 
 ### Mounting Location
 The solenoid must be positioned in a place where it can operate the locking mechanism but also where it won't be affected by the window winder mechanism. I found that the ideal place for is is just below the door locking mechanism. The operating rod should be shortened and bent into shape so it can operate the rod. The rods can then be joined by the supplied clamp. I suggest you use Locktight on the threads to prevent it from coming loose.
 
-{% picture solenoid-location.jpg %}
+{% picture blog solenoid-location.jpg %}
+{% picture blog PXL_20210313_122358872.jpg %}
 
 ### Wiring Diagram
 
-{% picture 8_central_locking.png %}
+{% picture blog 8_central_locking.png %}
 

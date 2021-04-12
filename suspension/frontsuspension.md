@@ -5,9 +5,6 @@ parent: Suspension
 ---
 ## Front Suspension
 
-{% picture largethumb IMG_20190918_172236.jpg %}
-{: .d-inline-block .float-right .pl-5}
-
 The front suspension has been fully rebuilt with the following components
 
 * New kingpins
@@ -19,3 +16,5 @@ The front suspension has been fully rebuilt with the following components
 * New hub bearings
 * New track rod ends
 * 3/4" front anti-roll bar
+
+{% picture blog IMG_20190918_172236.jpg %}

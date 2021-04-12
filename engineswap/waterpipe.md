@@ -14,6 +14,8 @@ engine bay. I chose to make mine using very carefully cut and welded
 stainless steel tube. It needs to pass underneath the exhaust headers so
 can't realistically be made of anything that will burn or melt.
 
-{% picture mediumthumb IMG_20190330_095919.jpg %}{% picture mediumthumb IMG_20190829_152035.jpg %}{% picture mediumthumb IMG_20190628_191217.jpg %}{% picture mediumthumb IMG_20190628_191224.jpg %}
-{: .text-center }
+{% picture blog IMG_20190330_095919.jpg %}
+{% picture mediumthumb IMG_20190829_152035.jpg %}
+{% picture mediumthumb IMG_20190628_191217.jpg %}
+{% picture mediumthumb IMG_20190628_191224.jpg %}
 

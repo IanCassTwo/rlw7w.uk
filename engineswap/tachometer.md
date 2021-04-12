@@ -45,7 +45,7 @@ laptop worked fine playing the audio tracks, but my Android phone
 wouldn't. You can also verify the rev counter by running OpCom software
 on your laptop & accessing the realtime diagnostics.
 
-{% picture External_2.jpg %}
+{% picture largethumb External_2.jpg %}
 
   [Spiyda]: https://www.spiyda.com/smiths-rvi-rvc-conversion-external.html
   [Spiyda's instructions]: https://www.spiyda.com/pub/media/wysiwyg/pdf/TACHO%20EXTERNAL%20MK3.pdf

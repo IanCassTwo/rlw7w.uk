@@ -26,7 +26,7 @@ The VDO speedo that I purchased had blown backlight bulbs. These are 1.2W T10 we
 
 It also has an intermittent dim/non-functional odometer. Sometimes it works fine, other times it's unreadable. It seems you can buy these [brand new on Aliexpress][] for not a lot of money. This is also a project for another day.
 
-{% picture IMG_20200806_152131.jpg %}
+{% picture blog IMG_20200806_152131.jpg %}
 
 ### Pulses per mile
 

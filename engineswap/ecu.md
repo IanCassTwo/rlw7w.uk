@@ -20,11 +20,11 @@ The pins below are what you'd find in the original Omega engine loom plug.
 | 7   | Immobilizer request/acknowledge. This connects to pin 7 of the transponder ring in the steering column|
 | 8   | Reverse light switch power output|
 | 11  | Coolant temperature sensor. This will drive the MGB temperature gauge but it will read slightly lower than expected|
-| 13  | Tacho Pulse. This won't drive the MGB tacho directly. You'll need to use an adapter. See below|
+| 13  | Tacho Pulse. This won't drive the MGB tacho directly. [You'll need to use an adapter](/engineswap/tachometer.html)|
 | 15  | Switched live for ECU|
 
 In addition, there's a large green plug that contains the permanent live
 power input for the ECU. This should be a high current wire.
 
-{% picture Pinout.jpg %}
-{% picture 7_engine_ecu_&_fuel_pump.png %}
+{% picture blog Pinout.jpg %}
+{% picture blog 7_engine_ecu_&_fuel_pump.png %}

@@ -29,7 +29,6 @@ the two with flexible air ducting.
 {% picture mediumthumb IMG_20200123_191048.jpg %}
 {% picture mediumthumb IMG_20200123_191107.jpg %}
 {% picture mediumthumb IMG_20200123_191135.jpg %}
-{% picture mediumthumb IMG_20200124_115337.jpg %}
 
 [multiram]: http://www.omegaowners.com/forum/index.php?topic=90513.0
 [variable length tuned intake system]: https://en.wikipedia.org/wiki/Variable-length_intake_manifold

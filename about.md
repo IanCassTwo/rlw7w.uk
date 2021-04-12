@@ -10,7 +10,7 @@ The car has now been fitted with a bigger, more modern V6 engine, with upgrades 
 
 This wiki is very much a living document. It will undergo regular updates so please visit often. 
 
-{% picture mediumthumb IMG_20180929_113837.jpg %}{% picture mediumthumb Meet_aug_2020.jpg %}{% picture mediumthumb IMG_20200802_131704_2.jpg %}
-{: .text-center }
-
-{% picture IMG_20200327_201050.jpg %}
+{% picture blog PXL_20210405_144657266_1.jpg %}
+{% picture mediumthumb IMG_20180929_113837.jpg %}
+{% picture mediumthumb Meet_aug_2020.jpg %}
+{% picture mediumthumb IMG_20200802_131704_2.jpg %}

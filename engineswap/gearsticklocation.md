@@ -11,8 +11,7 @@ You should also completely remove the external reverse lockout mechanism. This i
 
 I didn't like the horrid Vauxhall standard gear knob however it appears to be bonded to the gearstick, so I removed the entire Omega gearstick and made a new one from various size bar and tube stock. This let me fine tune the length & fit a nicer looking gear knob.  
 
+{% picture blog IMG_20191020_201420.jpg %}
 {% picture mediumthumb IMG_20190508_142703.jpg %}
 {% picture mediumthumb IMG_20190510_181744.jpg %}
-{% picture mediumthumb IMG_20190511_163103.jpg %}
 {% picture mediumthumb IMG_20190916_190014.jpg %}
-{% picture mediumthumb IMG_20191020_201420.jpg %}

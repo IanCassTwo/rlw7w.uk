@@ -1,20 +1,13 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-
-  {% unless site.plugins contains "jekyll-seo-tag" %}
-    <title>{{ page.title }} - {{ site.title }}</title>
-
-    {% if page.description %}
-      <meta name="Description" content="{{ page.description }}">
-    {% endif %}
-  {% endunless %}
-
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta property="og:description" content="{{ site.description }}">
   <link rel="stylesheet" href="/assets/css/just-the-docs-default.css?{{site.time | date: '%s'}}">
   <link rel="shortcut icon" href="{{ '/favicon.ico' }}" type="image/x-icon">
+  <link rel="canonical" href="http://rlw7w.uk{{ page.url | replace:'index.html','' }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  {% seo %}
 
   {% include head_custom.html %}
 

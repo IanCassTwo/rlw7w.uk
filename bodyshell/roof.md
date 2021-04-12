@@ -11,12 +11,12 @@ I decided early on that I would not be trying to use a 2nd hand roof. New ones a
 
 Once the old roof was off, the new one was trial fitted. It fitted perfectly as you'd expect from a genuine part. Final fitment was done with a modern automotive 2-part epoxy glue designed for fitting roofs to cars. I welded the front A-pillar joint just for peace of mind.
 
-{% picture thumb IMG_20181005_202215.jpg %}
-{% picture thumb IMG_20190518_165319.jpg %}
-{% picture thumb IMG_20190518_165339.jpg %}
-{% picture thumb IMG_20201106_122510.jpg %}
-{% picture thumb IMG_20201106_131146.jpg %}
-{% picture thumb IMG_20201107_131200.jpg %}
-{% picture thumb IMG_20201212_150951.jpg %}
-{% picture thumb IMG_20201212_151024.jpg %}
-{% picture thumb IMG_20210106_175728.jpg %}
+{% picture blog IMG_20210106_175728.jpg %}
+{% picture mediumthumb IMG_20181005_202215.jpg %}
+{% picture mediumthumb IMG_20190518_165319.jpg %}
+{% picture mediumthumb IMG_20190518_165339.jpg %}
+{% picture mediumthumb IMG_20201106_122510.jpg %}
+{% picture mediumthumb IMG_20201106_131146.jpg %}
+{% picture mediumthumb IMG_20201107_131200.jpg %}
+{% picture mediumthumb IMG_20201212_150951.jpg %}
+{% picture mediumthumb IMG_20201212_151024.jpg %}
