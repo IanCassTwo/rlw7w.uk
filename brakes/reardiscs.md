@@ -15,21 +15,36 @@ To swap to discs, you need 3 main components. The disc itself, the brake caliper
 The trick for a successful conversion is to find a disc that has the same bolt pattern, is small enough to fit inside the 14" wheel and has the correct offset so that the caliper will fit behind the wheel. Research of the ATE brake catalog showed that there were 3 main candidates that would possible fit the criteria
 
 #### Volvo
-Too shallow but would be ok on aftermarket wheels. It's a direct bolt on fit. However, the bracket would need quite a deep spacer to place the caliper in the correct position. This might expose the bracket to more leverage forces than necessary.
+The disc is too shallow so the caliper sticks out too far for factory wheels but would be ok on aftermarket wheels. However, the bracket would need quite a deep spacer to place the caliper in the correct position. This might expose the bracket to more leverage than necessary. It's a direct bolt on fit. 
 
 #### Hyundai/Kia
-Very deep disc so no problems with caliper fit. However, its designed with a built-in drum for handbrake mechanism (which we wouldn't use) so the disc braking surface is rather slim. Brake pads for my chosen caliper overlapped the edge of the disc. It's a direct bolt on fit. The bracket would need the spacer between the bracket and the axle to move the caliper away from the disc.
+This disc is quite the opposite. It's a very deep disc so no problems with caliper fit. However, its designed with a built-in drum for handbrake mechanism (which we wouldn't use) so the disc braking surface is rather slim. Brake pads for my chosen caliper overlapped the edge of the disc. The bracket would need the spacer between the bracket and the axle to move the caliper away from the disc. It's a direct bolt on fit.
 
 #### Honda
-Depth of braking surface is somewhere in between the Volvo and Kia disc, but it's deep enough for the caliper to comfortably fit behind my 14" LE alloy wheel. The braking surface area is just right for the pads of my chosen caliper. However, the centre bore is not large enough to fit over the axle stub. It needs boring out to 3" with a hole saw. This is easier than it sounds because the metal is relatively soft. You'll need to create a jig so that you drill it centrally, but should be quite achievable with a hand drill. If you want to, you can also drill two countersunk holes for the grub screws. The bracket needs a 6mm spacer to place the caliper closer to the disc.
+The depth of the braking surface is somewhere in between the Volvo and Kia disc. It's deep enough for the caliper to snugly fit behind my 14" LE alloy wheel. The braking surface area is just right for the pads of my chosen caliper. Unfortunately, the centre bore of the disc is not large enough to fit over the axle stub so needs some modification. It needs boring out to 3" with a hole saw. This is easier than it sounds because the metal is relatively soft. You'll need to create a jig so that you drill it centrally, but should be quite achievable with a hand drill. If you want to, you can also drill two countersunk holes for the grub screws. The bracket needs a 6mm spacer to place the caliper closer to the disc.
 
-The Borg & Beck part number of this disc is BBD5071 and is designed for a 1996-1998 Honda Accord.
+The Borg & Beck part number of this disc is BBD5071 and is used on the 1996-1998 Honda Accord.
+
+{% picture mediumthumb PXL_20210409_175457481.jpg %}
+{% picture mediumthumb PXL_20210412_163727124.jpg %}
+{% picture mediumthumb PXL_20210412_163741323.MP.jpg %}
+
 
 ### The Brake Caliper
-There's several candidates for a brake caliper. The guys in USA tend to use Nissan parts (Sentra 34mm piston, 240sx 38mm piston). However, I think that the MG-F or MG-TF caliper (38mm piston)  is a better choice in the UK. The caliper handbrake mechanism is a better layout for this conversion. The pads are an ideal size for the Honda disc.
+There's several candidates for a brake caliper. The guys in USA tend to use Nissan parts (Sentra 34mm piston, 240sx 38mm piston). However, I think that the Lucas caliper for an MG-F or MG-TF (38mm piston) is a better choice in the UK. The caliper handbrake mechanism is also a better layout for this conversion. 
+
+{% picture blog PXL_20210412_164001047.jpg %}
 
 ### The Bracket
-The bracket is a custom part. You'll need to make these yourself or get someone to make them for you. These should be made in 2 parts - the bracket to locate the caliper in relation to the axle and a 6mm thick spacer to locate the caliper in relation to the disc. I welded the two parts together to improve strength of the part as a whole.
+The bracket is a custom part. You'll need to make these yourself or get someone to make them for you. These should be made in 2 parts - the bracket to locate the caliper relative to the axle and a 6mm thick spacer to locate the caliper relative to the disc. I welded the two parts together to improve strength of the part as a whole. Apart from the obvious welds, I also welded these along the edge by grinding an angle and welding inside the resulting vee. If you do this, be careful of heat distortion.
+
+{% picture largethumb PXL_20210417_135649460.jpg %}
+{% picture largethumb PXL_20210417_135641966.jpg %}
 
 ### The Brake Hoses
 Now that you've got the discs fitted and got the calipers mounted to the axle, you'll need to plumb them in. Your brake drums only needed hard lines to connect the brake slave cylinder but your new calipers are sliding calipers so they'll move during normal operation. This means that you'll need flexible brake hoses. You'll need to get these made or make them yourself using a self-build brake kit.
+
+{% picture blog PXL_20210518_180357478.jpg %}
+
+### Handbrake Cable
+The handbrake mechanism on these Lucas calipers pulls inwards much like the drums do on an MGB. The ends of the standard MGB brake cable attach to the calipers in much the same way. I'm hoping that I can use the standard cable and compensator but I do expect to have to shorten the cable from the compensator to the drivers rear by using a clamp.  
