@@ -13,8 +13,9 @@ I needed another plan. I could either randomly try other springs according to th
 
 I can't explain why the BHH1077 springs made the ride height so tall. I do plan to try some alternatives at some point, but for now the car is running well with the spacers. Was it worth it? Well, The suspension geometry is now only slightly compromised and the ride quality has significantly improved. I no longer have bad bump steer and I don't ground out on bumpy roads. I've not been brave enough to try speed humps yet.
 
+
 | Spring | Free Length |
-| :-- | :-- | :-- |
+| :-- | :-- |
 | C-AHT21 | 8.63 |
 | AHH5546 | 8.8 |
 | AHH5789 | 9.1 |
