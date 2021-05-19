@@ -17,6 +17,7 @@ Reference
 -   <https://haynes.com/en-gb/vauxhall/omega/1994-1999>
 -   <https://www.amazon.co.uk/How-Give-Your-MGB-Power/dp/1845848330/>
 -   <http://www.advanceautowire.com/mgb.pdf>
+-   <http://mgbsmadeinaustralia.org/>
 
 Software
 
