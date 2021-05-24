@@ -9,11 +9,13 @@ title: Home
 {% endraw %}
     {% for post in paginator.posts %}
     <article>
-          <h2>{{ post.title }}</h2>
-          <span class="fs-3">{{ post.date | date_to_string }}</span>
+          <span style="float: left;"><h2>{{ post.title }}</h2></span>
+          <span style="float: right; margin-top: 0.5em;">{% include share-bar.html %}</span>
+          <span class="fs-3" style="clear: both; display: block;">{{ post.date | date_to_string }}</span>
           {{ post.content }}
     </article>
     {% endfor %}
+</div>
 
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
@@ -31,7 +33,6 @@ title: Home
 </div>
 {% endif %}
 
-</div>
 
 <script type="text/javascript" src="/assets/js/infinite-scroll.pkgd.min.js?{{site.time | date: '%s'}}"></script>
 <script>
