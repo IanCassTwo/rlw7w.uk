@@ -15,7 +15,7 @@ To swap to discs, you need 3 main components. The disc itself, the brake caliper
 The trick for a successful conversion is to find a disc that has the same bolt pattern, is small enough to fit inside the 14" wheel and has the correct offset so that the caliper will fit behind the wheel. Research of the ATE brake catalog showed that there were 3 main candidates that would possible fit the criteria
 
 #### Volvo
-These discs will bolt on without modification but are too shallow so the caliper clearance is an issue for factory wheels. They may be ok for certain aftermarket wheels. 
+These discs will bolt on without modification but are too shallow so caliper clearance is an issue for factory wheels. They may be ok for certain aftermarket wheels. 
 
 #### Hyundai/Kia
 These discs will also bolt on without modification and are very deep so there would be no caliper clearance problems. However, they are designed with a built-in drum for the handbrake mechanism (which we wouldn't use) so the disc braking surface is rather slim. The brake pads for my chosen caliper overlap the edge of these discs so they're clearly not a viable option.
