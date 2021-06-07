@@ -23,7 +23,7 @@ These discs will also bolt on without modification and are very deep so there wo
 #### Honda
 These discs are not a direct bolt on fit but are in all other respects the perfect choice. The depth of the braking surface is somewhere in between the Volvo and Kia disc. They're deep enough for the caliper to snugly fit behind my 14" LE alloy wheel and the braking surface area is just right for the pads of my chosen caliper. However, the centre bore needs enlarging to 3" with a hole saw. This is easier than it sounds because the metal is relatively soft. You'll need to create a jig so that you drill it centrally, but should be quite achievable with a hand drill. If you want to, you can also drill two countersunk holes for the grub screws.
 
-The Borg & Beck part number of this disc is BBD5071 and is used on the 1996-1998 Honda Accord.
+The Borg & Beck part number of this disc is BBD5071 and is used on the 1996-1998 Honda Accord and 1993-1999 Rover 600.
 
 {% picture mediumthumb PXL_20210409_175457481.jpg %}
 {% picture mediumthumb PXL_20210412_163727124.jpg %}
