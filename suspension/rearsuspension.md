@@ -9,4 +9,4 @@ parent: Suspension
 * 1" lowering blocks
 * New shock links
 * Original armstrong shocks were in good condition so were retained
-* Original rear anti-roll bar with home made poly bushes
+
