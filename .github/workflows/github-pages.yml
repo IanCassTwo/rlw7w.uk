@@ -9,18 +9,6 @@ jobs:
   github-pages:
     runs-on: ubuntu-latest
     steps:          
-    
-      - name: Show Ubuntu
-        run: cat /etc/issue
-        
-      - name: Install system dependencies
-        run: sudo apt install libglib2.0-0 libjpeg-dev webp libpng-dev libavifile-0.7c2 libopenjpip7 imagemagick libvips libvips-tools
-       
-      - name: Show Version
-        run: convert --version
-        
-      - name: Show path
-        run: which convert
         
       - name: Checkout repo
         uses: actions/checkout@v2  
