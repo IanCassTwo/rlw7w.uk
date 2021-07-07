@@ -10,17 +10,11 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     
-      - uses: actions/checkout@v2
-      
-      - uses: actions/cache@v2
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-                                          
       - name: Install system dependencies
         run: sudo apt install libjpeg-dev webp libpng-dev libavifile-0.7c2 libopenjpip7 imagemagick libvips-tools
+
+      - name: Checkout repo
+        uses: actions/checkout@v2                                        
       
       - uses: helaili/jekyll-action@v2
         with:
