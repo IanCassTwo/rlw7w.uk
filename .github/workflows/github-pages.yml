@@ -9,11 +9,14 @@ jobs:
   github-pages:
     runs-on: ubuntu-20.04
     steps:
-    
-      - uses: actions/checkout@v2                                        
-      
-      - uses: jruipinto/ImageMagick-action@v1
+          
+      - name: Install system dependencies
+        run: sudo apt install libjpeg-dev webp libpng-dev libavifile-0.7c2 libopenjpip7 imagemagick libvips-tools
 
-      - uses: helaili/jekyll-action@v2
+      - name: Checkout repo
+        uses: actions/checkout@v2                                        
+        
+      - name: Create Jekyll site
+        uses: helaili/jekyll-action@v2
         with:
           token: ${{ secrets.TOKEN }}
