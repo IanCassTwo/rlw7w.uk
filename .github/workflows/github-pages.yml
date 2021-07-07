@@ -11,7 +11,7 @@ jobs:
     steps:          
     
       - name: Install system dependencies
-        run: sudo apt install libglib-2.0 libjpeg-dev webp libpng-dev libavifile-0.7c2 libopenjpip7 imagemagick libvips-tools
+        run: sudo apt install glib-2.0 libjpeg-dev webp libpng-dev libavifile-0.7c2 libopenjpip7 imagemagick libvips-tools
         
       - name: Show Version
         run: convert --version
