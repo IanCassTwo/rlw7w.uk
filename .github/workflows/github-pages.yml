@@ -10,12 +10,10 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     
-      - name: Install system dependencies
-        run: sudo apt install libjpeg-dev webp libpng-dev libavifile-0.7c2 libopenjpip7 imagemagick libvips-tools
-
-      - name: Checkout repo
-        uses: actions/checkout@v2                                        
+      - uses: actions/checkout@v2                                        
       
+      - uses: jruipinto/ImageMagick-action@v1
+
       - uses: helaili/jekyll-action@v2
         with:
           token: ${{ secrets.TOKEN }}
