@@ -11,7 +11,7 @@ presets:
     link_source: true # wrap images in a link to the original source image.
     #dimension_attributes: true # Page reflow begone!
 
-    formats: [avif, webp, original] # Must be an array, and order matters.
+    formats: [webp, original] # Must be an array, and order matters.
 
     widths: [200, 400, 800, 1600] # Must be an array.
     media_widths: # Because a cell phone doesn't want 1600 pixels.
@@ -36,7 +36,7 @@ presets:
   # images to devices with higher pixel ratios.
   icon:
     base_width: 20 # How wide the 1x image should be.
-    formats: [avif, webp, original] # Must be an array, and order matters.
+    formats: [webp, original] # Must be an array, and order matters.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 20
     attributes:
@@ -46,7 +46,7 @@ presets:
   blog:
     base_width: 736 # How wide the 1x image should be.
     link_source: true # wrap images in a link to the original source image.
-    formats: [avif, webp, original] # Must be an array, and order matters.
+    formats: [webp, original] # Must be an array, and order matters.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 736
     fallback_format: original
@@ -58,7 +58,7 @@ presets:
     #dimension_attributes: true # Page reflow begone!
     base_width: 460 # How wide the 1x image should be.
     link_source: true # wrap images in a link to the original source image.
-    formats: [avif, webp, original] # Must be an array, and order matters.
+    formats: [webp, original] # Must be an array, and order matters.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 460
     attributes:
@@ -69,7 +69,7 @@ presets:
     #dimension_attributes: true # Page reflow begone!
     base_width: 260 # How wide the 1x image should be.
     link_source: true # wrap images in a link to the original source image.
-    formats: [avif, webp, original] # Must be an array, and order matters.
+    formats: [webp, original] # Must be an array, and order matters.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 260
     attributes:
@@ -80,7 +80,7 @@ presets:
     #dimension_attributes: true # Page reflow begone!
     base_width: 260 # How wide the 1x image should be.
     link_source: true # wrap images in a link to the original source image.
-    formats: [avif, webp, original] # Must be an array, and order matters.
+    formats: [webp, original] # Must be an array, and order matters.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 260
     attributes:
@@ -100,7 +100,7 @@ presets:
   thumb:
     #dimension_attributes: true # Page reflow begone!
     base_width: 160 # How wide the 1x image should be.
-    formats: [avif, webp, original] # Must be an array, and order matters.
+    formats: [webp, original] # Must be an array, and order matters.
     link_source: true # wrap images in a link to the original source image.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 160
@@ -112,7 +112,7 @@ presets:
   # something like lazyload: https://github.com/verlok/lazyload
   lazy:
     markup: data_auto
-    formats: [avif, webp, original]
+    formats: [webp, original]
     widths: [200, 400, 600, 800]
     noscript: true # add a fallback image inside a <noscript> tag.
     attributes: 
