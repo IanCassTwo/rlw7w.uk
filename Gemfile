@@ -17,7 +17,7 @@ gem "jekyll", "~> 4.2.0"
 group :jekyll_plugins do
 #  gem "mime-types-data", git: "https://github.com/IanCassTwo/mime-types-data",  branch: 'avif'
 #  gem "jekyll-feed", "~> 0.12"
-  gem 'jekyll_picture_tag', "1.14.0"
+  gem 'jekyll_picture_tag', "2.0.0"
   gem 'jekyll-target-blank'
   gem 'jekyll-paginate'
 #  gem 'jekyll-brotli'
