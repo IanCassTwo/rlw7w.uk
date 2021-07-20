@@ -47,4 +47,6 @@ Now that you've got the discs fitted and got the calipers mounted to the axle, y
 {% picture blog PXL_20210518_180357478.jpg %}
 
 ### Handbrake Cable
-The handbrake mechanism on these Lucas calipers pulls inwards much like the drums do on an MGB. The ends of the standard MGB brake cable attach to the calipers in much the same way. You can use the standard cable and compensator but the cables need shortening by about 1.5-2". It's possible that a wire-wheel cable will be the correct length if used on a steel wheel car.
+The handbrake mechanism on these Lucas calipers pulls inwards much like the drums do on an MGB. The ends of the standard MGB brake cable attach to the calipers in much the same way. You can use the standard cable and compensator but the cables need shortening by about 1.5-2". It's possible that a wire-wheel cable will be the correct length if used on a steel wheel car. If you shorten the cables, it's important that you clamp or crimp the ends securely so that the cable doesn't slip. I did this by drilling a 3mm hole near the head of a bolt so that it grips the cable when the nut is tightened.
+
+You'll also find that the handbrake mechanism won't adjust enough to pull the handbrake 100%. To fix this, you'll need to remove the handbrake lever and remove the lower part where the adjuster attaches. This will then need cutting in half and extended by approx 10mm. This will cause the cable to be pulled further for a given amount of handbrake application. Mine now fully engages after about 6 clicks.
