@@ -33,6 +33,8 @@ The Borg & Beck part number of this disc is BBD5071 and is used on the 1996-1998
 ### The Brake Caliper
 There's several candidates for the brake caliper. The guys in USA tend to use Nissan parts (Sentra 34mm piston, 200sx 38mm piston). However, in Europe, the Lucas caliper for an MG-F or MG-TF (38mm piston) is a better choice. The caliper handbrake mechanism is also a better layout for this conversion because they pull inwards in the same direction as the drum brakes rather than towards the front of the car.
 
+*Warning. My brake pads came with anti-squeal shims attached however they prevent the outer pads from contacting the disc squarely. Make sure to remove them!*
+
 {% picture blog PXL_20210412_164001047.jpg %}
 
 ### The Mounting Bracket
