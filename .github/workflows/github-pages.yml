@@ -11,7 +11,13 @@ jobs:
     steps:          
         
       - name: Checkout repo
-        uses: actions/checkout@v2  
+        uses: actions/checkout@v2
+        
+      - name: Run images script
+        run: |
+         chmod +x ./assets/images/_resizeimages.sh
+         ./assets/images/_resizeimages.sh
+        shell: bash
         
       - name: Create Jekyll site
         uses: helaili/jekyll-action@v2
