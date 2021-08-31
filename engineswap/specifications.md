@@ -7,6 +7,7 @@ parent: Engine Swap
 
 
 |-------------------|--------------------------------------|
+| Engine            | GM X30XE (from a Vauxhall Omega)     |
 | Capacity          | 2962cc                               |
 | Configuration     | 56° V6, 24-valve DOHC                |
 | Max. power        | 210PS (155kW) @ 6000rpm              |
@@ -15,5 +16,6 @@ parent: Engine Swap
 | Fuel Injection    | Fully sequential                     |
 | Ignition          | Distributorless 3 channel batch fire |
 | ECU               | Bosch Motronic                       |
+| Gearbox           | 5 speed manual                       |
 
 
