@@ -90,7 +90,7 @@ presets:
   logo:
     #dimension_attributes: true # Page reflow begone!
     base_width: 200 # How wide the 1x image should be.
-    formats: [png, original] # Must be an array, and order matters.
+    formats: [webp, png] # Must be an array, and order matters.
     link_source: false # wrap images in a link to the original source image.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 200
