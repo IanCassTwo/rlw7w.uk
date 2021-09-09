@@ -52,7 +52,7 @@ presets:
     fallback_format: original
     attributes:
       img: 'class="blog" loading="lazy"'
-      a: 'class="lightbox-image" title'
+      a: 'class="lightbox-image" title=""'
 
   largethumb:
     #dimension_attributes: true # Page reflow begone!
