@@ -33,7 +33,6 @@ Suppliers
 -   <https://www.carbuilder.com/uk/>
 -   <https://www.mg-cars.org.uk/lmg/index.shtml>
 -   <https://www.ooracing.com/stainless-bends.html>
--   <https://www.ebay.co.uk/usr/\*\*theonlinelockshop\*\*>
 -   <http://www.bondtech.uk.com/14-automotive-bonding>
 -   <https://heathrowtransmissions.co.uk/>
 
