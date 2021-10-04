@@ -32,3 +32,21 @@ title: Home
 </div>
 {% endif %}
 
+<script type="text/javascript" src="/assets/js/infinite-scroll.pkgd.min.js?{{site.time | date: '%s'}}"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+        let infScroll = new InfiniteScroll( '.content', {
+          path: '.next',
+          append: '.content',
+          hideNav: '.pagination',
+          history: false,
+          debug: false,
+        });
+
+        infScroll.on( 'append', function( body, path, items, response ) {
+                console.log("append");
+                initLightbox();
+        });
+
+});
+</script>

@@ -29,6 +29,8 @@
 
 	barba.hooks.after((data) => {
 
+		console.log("after");
+
 		/* Reset the mobile menu */
 		const siteNav = document.getElementById('site-nav');
 		const mainHeader = document.getElementById('main-header');
@@ -44,25 +46,29 @@
 		/* Reset InfiniteScroll */
 		if (data.next.namespace == 'home') {
 			console.log("Loading infScroll");
-			let infScroll = new InfiniteScroll('.content', {
-				  path: '.next',
-				  append: '.content',
-				  hideNav: '.pagination',
-				  history: false,
-				  debug: false,
-			});
-			console.log("infScroll = " + infScroll);
-			infScroll.create();
+                        let infScroll = new InfiniteScroll('.content', {
+                                  path: '.next',
+                                  append: '.content',
+                                  hideNav: '.pagination',
+                                  history: false,
+                                  debug: false,
+                        });
+
+                        infScroll.on( 'append', function( body, path, items, response ) {
+                                initLightbox();
+                        });
+
 		}
 		if (data.current.namespace == 'home') {
-			console.log("Destroying infScroll");
 			let infScroll = InfiniteScroll.data('.content');
 			infScroll.destroy();
 		}
 
 		/* push Google Tags */
-		gtag('set', 'page', window.location.pathname);
-		gtag('send', 'pageview');
+		var trackers = ga.getAll();
+		trackers.forEach(function (tracker) {
+			ga(tracker.get('name') + '.send', 'pageview', location.pathname, {'useAmpClientId': true});
+		});
 	});
 
 	barba.init();
