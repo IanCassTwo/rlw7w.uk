@@ -10,7 +10,6 @@ title: Home
     {% for post in paginator.posts %}
     <article>
           <span style="float: left;"><h2>{{ post.title }}</h2></span>
-          <span style="float: right; margin-top: 0.5em;">{% include share-bar.html %}</span>
           <span class="fs-3" style="clear: both; display: block;">{{ post.date | date_to_string }}</span>
           {{ post.content }}
     </article>
