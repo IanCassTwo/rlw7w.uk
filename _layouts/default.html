@@ -96,7 +96,7 @@ layout: table_wrappers
         </nav>
       {% endif %}
     </div>
-    <div id="main-content-wrap" class="main-content-wrap" data-barba="container" data-barba-namespace="default">
+    <div id="main-content-wrap" class="main-content-wrap" data-barba="container" data-barba-namespace="{{ page.layout }}">
       {% unless page.url == "/" %}
         {% if page.parent %}
           {%- for node in pages_list -%}
