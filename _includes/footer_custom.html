@@ -28,6 +28,18 @@ barba.hooks.after(() => {
 {% endif %}
 
 <script>
+
+	barba.hooks.afterLeave((data) => {
+		console.log("afterLeave hook");
+		const siteNav = document.getElementById('site-nav');
+		const mainHeader = document.getElementById('main-header');
+		const menuButton = document.getElementById('menu-button');
+
+		siteNav.classList.remove('nav-open');
+		mainHeader.classList.remove('nav-open');
+		menuButton.classList.remove('nav-open');
+	});
+
 	barba.init();
 </script>
 
