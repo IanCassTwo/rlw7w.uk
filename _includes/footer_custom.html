@@ -1,6 +1,8 @@
 <p><a href="#top" id="back-to-top">Back to top</a></p>
 <p class="text-small text-grey-dk-100 mb-0">Copyright &copy; 2020-2021 Ian Cass</p> <div class="d-flex mt-2"> </div>
 
+<script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CIntersectionObserver"></script>
+
 <script type="text/javascript" src="/assets/js/just-the-docs.js?{{site.time | date: '%s'}}"></script>
 {% if site.search_enabled != false %}
   <script type="text/javascript" src="/assets/js/vendor/lunr.min.js?{{site.time | date: '%s'}}"></script>
@@ -8,6 +10,7 @@
 
 <link rel="stylesheet" href="/assets/css/lightbox.css?{{site.time | date: '%s'}}">
 <script type="text/javascript" src="/assets/js/lightbox.js?{{site.time | date: '%s'}}"></script>
+
 
 {% if site.ga_tracking != nil %}
 <script src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
@@ -17,12 +20,14 @@
   gtag('js', new Date());
 
   gtag('config', '{{ site.ga_tracking }}'{% unless site.ga_tracking_anonymize_ip == nil %}, { 'anonymize_ip': true }{% endunless %});
+barba.hooks.after(() => {
+  ga('set', 'page', window.location.pathname);
+  ga('send', 'pageview');
+});
 </script>
 {% endif %}
 
 <script>
-     Barba.Pjax.Dom.containerClass = 'main-content';
-     Barba.Pjax.Dom.wrapperId = 'main-content-wrap';
-     Barba.Pjax.start();
-     Barba.Prefetch.init();
+	barba.init();
 </script>
+
