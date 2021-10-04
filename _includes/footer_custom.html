@@ -71,6 +71,14 @@
 		});
 	});
 
-	barba.init();
+	var min_rem = 50;
+	var computedStyle = window.getComputedStyle(document.documentElement); 
+	var fontSize = computedStyle.fontSize; 
+	var ww = document.body.clientWidth / parseInt(fontSize); 
+
+	if (ww >= min_rem) {
+		barba.init();
+	}
+
 </script>
 
