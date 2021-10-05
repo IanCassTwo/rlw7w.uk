@@ -3,6 +3,7 @@ layout: page
 title: Suspension
 nav_order: 6
 has_children: true
+no_page: true
 ---
 ## Suspension
 

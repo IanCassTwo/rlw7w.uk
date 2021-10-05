@@ -3,6 +3,7 @@ layout: page
 title: Brakes
 nav_order: 7
 has_children: true
+no_page: true
 ---
 ## Brakes
 

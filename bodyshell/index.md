@@ -3,6 +3,7 @@ layout: page
 title: Body Shell
 nav_order: 2
 has_children: true
+no_page: true
 ---
 ## Body Shell
 {% picture largethumb IMG_20180929_125152.jpg %}
