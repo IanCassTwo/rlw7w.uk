@@ -29,8 +29,6 @@
 
 	barba.hooks.after((data) => {
 
-		console.log("after");
-
 		/* Reset the mobile menu */
 		const siteNav = document.getElementById('site-nav');
 		const mainHeader = document.getElementById('main-header');
@@ -45,7 +43,6 @@
 
 		/* Reset InfiniteScroll */
 		if (data.next.namespace == 'home') {
-			console.log("Loading infScroll");
                         let infScroll = new InfiniteScroll('.content', {
                                   path: '.next',
                                   append: '.content',
