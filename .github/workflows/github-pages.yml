@@ -35,7 +35,7 @@ jobs:
         id: myRequest
         uses: fjogeleit/http-request-action@master
         with:
-          url: "http://rlw7w.uk/purge/${{ secrets.PURGE }}"
+          url: http://rlw7w.uk/purge/${{ secrets.PURGE }}
       - name: Show Response
         run: echo ${{ steps.myRequest.outputs.response }}
 
