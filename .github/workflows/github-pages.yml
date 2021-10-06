@@ -30,5 +30,13 @@ jobs:
           token: ${{ secrets.TOKEN }}
           pre_build_commands: |
             apk --update add vips vips-tools
-        
+
+      - name: Make Purge Request
+        id: myRequest
+        uses: fjogeleit/http-request-action@master
+        with:
+          url: "http://rlw7w.uk/purge/${{ secrets.PURGE }}"
+      - name: Show Response
+        run: echo ${{ steps.myRequest.outputs.response }}
+
 
