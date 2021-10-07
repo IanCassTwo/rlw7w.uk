@@ -1,8 +1,6 @@
 <p><a href="#top" id="back-to-top">Back to top</a></p>
 <p class="text-small text-grey-dk-100 mb-0">Copyright &copy; 2020-2021 Ian Cass</p> <div class="d-flex mt-2"> </div>
 
-<script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CIntersectionObserver"></script>
-
 <script type="text/javascript" src="/assets/js/just-the-docs.min.js?{{site.time | date: '%s'}}"></script>
 {% if site.search_enabled != false %}
   <script type="text/javascript" src="/assets/js/vendor/lunr.min.js?{{site.time | date: '%s'}}"></script>
@@ -23,59 +21,3 @@
 </script>
 {% endif %}
 
-<script type="text/javascript" src="/assets/js/infinite-scroll.pkgd.min.js"></script>
-
-<script>
-
-	barba.hooks.after((data) => {
-
-		/* Reset the mobile menu */
-		const siteNav = document.getElementById('site-nav');
-		const mainHeader = document.getElementById('main-header');
-		const menuButton = document.getElementById('menu-button');
-
-		siteNav.classList.remove('nav-open');
-		mainHeader.classList.remove('nav-open');
-		menuButton.classList.remove('nav-open');
-
-
-		/* Reset lightbox */
-		initLightbox();
-
-		/* Reset InfiniteScroll */
-		if (data.next.namespace == 'home') {
-                        let infScroll = new InfiniteScroll('.content', {
-                                  path: '.next',
-                                  append: '.content',
-                                  hideNav: '.pagination',
-                                  history: false,
-                                  debug: false,
-                        });
-
-                        infScroll.on( 'append', function( body, path, items, response ) {
-                                initLightbox();
-                        });
-
-		}
-		if (data.current.namespace == 'home') {
-			let infScroll = InfiniteScroll.data('.content');
-			infScroll.destroy();
-		}
-
-		/* push Google Tags */
-		var trackers = ga.getAll();
-		trackers.forEach(function (tracker) {
-			ga(tracker.get('name') + '.send', 'pageview', location.pathname, {'useAmpClientId': true});
-		});
-	});
-
-	var min_rem = 50;
-	var computedStyle = window.getComputedStyle(document.documentElement); 
-	var fontSize = computedStyle.fontSize; 
-	var ww = document.body.clientWidth / parseInt(fontSize); 
-
-	if (ww >= min_rem) {
-		barba.init();
-	}
-
-</script>
