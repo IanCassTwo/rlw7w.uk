@@ -6,7 +6,7 @@ layout: table_wrappers
 
 <html lang="{{ site.lang | default: 'en-US' }}">
 {% include head.html %}
-<body data-barba="wrapper">
+<body>
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="svg-link" viewBox="0 0 24 24">
       <title>Link</title>
@@ -96,7 +96,7 @@ layout: table_wrappers
         </nav>
       {% endif %}
     </div>
-    <div id="main-content-wrap" class="main-content-wrap" data-barba="container" data-barba-namespace="{{ page.layout }}">
+    <div id="main-content-wrap" class="main-content-wrap">
       {% unless page.url == "/" %}
         {% if page.parent %}
           {%- for node in pages_list -%}
