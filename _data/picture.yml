@@ -27,8 +27,8 @@ presets:
     fallback_format: original
 
     attributes:
-      img: 'class="gallery-image" loading="lazy"'
-      a: 'class="lightbox-image" title="" data-barba-prevent="all"'
+      img: 'class="gallery-image"'
+      a: 'class="lightbox-image" title=""'
 
   # This is an example of how you would create a 'multiplier' based srcset;
   # useful when an image will always be the same size on all screens (icons,
@@ -40,8 +40,8 @@ presets:
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 20
     attributes:
-      img: 'class="icon" loading="lazy"'
-      a: 'class="lightbox-image" title="" data-barba-prevent="all"'
+      img: 'class="icon"'
+      a: 'class="lightbox-image" title=""'
 
   blog:
     base_width: 736 # How wide the 1x image should be.
@@ -51,8 +51,8 @@ presets:
     fallback_width: 736
     fallback_format: original
     attributes:
-      img: 'class="blog" loading="lazy"'
-      a: 'class="lightbox-image" title="" data-barba-prevent="all"'
+      img: 'class="blog"'
+      a: 'class="lightbox-image" title=""'
 
   largethumb:
     #dimension_attributes: true # Page reflow begone!
@@ -62,8 +62,8 @@ presets:
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 460
     attributes:
-      img: 'class="largethumb" loading="lazy" style="max-height: 274px;"'
-      a: 'class="lightbox-image" title="" data-barba-prevent="all"'
+      img: 'class="largethumb" style="max-height: 274px;"'
+      a: 'class="lightbox-image" title=""'
 
   mediumthumb:
     #dimension_attributes: true # Page reflow begone!
@@ -73,8 +73,8 @@ presets:
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 260
     attributes:
-      img: 'class="mediumthumb" loading="lazy" style="max-width: 242px;"'
-      a: 'class="lightbox-image" title="" data-barba-prevent="all"'
+      img: 'class="mediumthumb" style="max-width: 242px;"'
+      a: 'class="lightbox-image" title=""'
 
   gallery:
     #dimension_attributes: true # Page reflow begone!
@@ -84,8 +84,8 @@ presets:
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 260
     attributes:
-      img: 'class="gallery-image" loading="lazy"'
-      a: 'class="lightbox-image" title="" data-barba-prevent="all"'
+      img: 'class="gallery-image"'
+      a: 'class="lightbox-image" title=""'
 
   logo:
     #dimension_attributes: true # Page reflow begone!
@@ -105,8 +105,8 @@ presets:
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 160
     attributes:
-      img: 'class="thumb" loading="lazy" style="max-height: 120px;"'
-      a: 'class="lightbox-image" title="" data-barba-prevent="all"'
+      img: 'class="thumb" style="max-height: 120px;"'
+      a: 'class="lightbox-image" title=""'
 
   # Here's an example of how you'd configure jekyll-picture-tag to work with
   # something like lazyload: https://github.com/verlok/lazyload
@@ -117,7 +117,7 @@ presets:
     noscript: true # add a fallback image inside a <noscript> tag.
     attributes: 
       img: 'class="lazy"'
-      a: 'class="lightbox-image" title="" data-barba-prevent="all"'
+      a: 'class="lightbox-image" title=""'
 
   # This is an example of how you'd get generated image and a URL, and nothing
   # else.
