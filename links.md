@@ -34,7 +34,6 @@ Suppliers
 -   <https://www.mg-cars.org.uk/lmg/index.shtml>
 -   <https://www.ooracing.com/stainless-bends.html>
 -   <http://www.bondtech.uk.com/14-automotive-bonding>
--   <https://heathrowtransmissions.co.uk/>
 
 Insurance
 
