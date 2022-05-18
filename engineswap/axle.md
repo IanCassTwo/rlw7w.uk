@@ -10,7 +10,7 @@ Whilst the original 3.9 axle ratio is tolerable with the Vauxhall 5-speed gearbo
 
 * The 4 cylinder MGB input flange is a Hardy Spicer 1140 and the v8 is 1310. The RV8 is also a 1310 but has 10mm (M10) metric holes & bolts. These holes are slightly larger than the 3/8" holes on the standard 1310 flange so I guess they'd need to be drilled out if a metric flange yoke can't be obtained. Luckily my axle was built with 1310 UJs with an output flange for a 1140 so I can swap this over for a standard 1310
 
-* The axle input flange to centre line distance is similar but not the same. An MGB is about 9.5" whilst the RV8 is slightly less at about 9.25". This places the input flange slightly further away from the propshaft. My "1310 with 1040 face" yoke is longer than a standard 1310 output yoke so I'll probably need to run a spacer to make up the difference
+* The axle input flange to centre line distance is similar but not the same. An MGB is about 9.5" whilst the RV8 is slightly less at about 9.25". This places the input flange slightly further away from the propshaft. My "1310 with 1140 face" yoke is longer than a standard 1310 output yoke so I'll probably need to run a spacer to make up the difference
 
 * The wheel PCD is 4 x 4.5" the same as the MGB however the studs are now metric M12 x 1.5. This obviously means that I'll need new wheel nuts
 
