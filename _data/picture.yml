@@ -5,13 +5,23 @@ media_queries:
   tablet: 'max-width: 900px'
   mobile: 'max-width: 600px'
 
+
 presets:
   default:
     markup: auto
     link_source: true # wrap images in a link to the original source image.
     #dimension_attributes: true # Page reflow begone!
 
-    formats: [webp, original] # Must be an array, and order matters.
+    formats: [webp, jpg, original] # Must be an array, and order matters.
+
+    image_options:
+      jpg:
+        optimize_coding: true
+        optimize_scans: true
+        quant_table: 3
+        trellis_quant: true
+      webp:
+        smart_subsample: true
 
     widths: [200, 400, 800, 1600] # Must be an array.
     media_widths: # Because a cell phone doesn't want 1600 pixels.
@@ -36,7 +46,7 @@ presets:
   # images to devices with higher pixel ratios.
   icon:
     base_width: 20 # How wide the 1x image should be.
-    formats: [webp, original] # Must be an array, and order matters.
+    formats: [webp, jpg, original] # Must be an array, and order matters.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 20
     attributes:
@@ -46,7 +56,7 @@ presets:
   blog:
     base_width: 736 # How wide the 1x image should be.
     link_source: true # wrap images in a link to the original source image.
-    formats: [webp, original] # Must be an array, and order matters.
+    formats: [webp, jpg, original] # Must be an array, and order matters.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 736
     fallback_format: original
@@ -58,7 +68,7 @@ presets:
     #dimension_attributes: true # Page reflow begone!
     base_width: 460 # How wide the 1x image should be.
     link_source: true # wrap images in a link to the original source image.
-    formats: [webp, original] # Must be an array, and order matters.
+    formats: [webp, jpg, original] # Must be an array, and order matters.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 460
     attributes:
@@ -69,7 +79,7 @@ presets:
     #dimension_attributes: true # Page reflow begone!
     base_width: 260 # How wide the 1x image should be.
     link_source: true # wrap images in a link to the original source image.
-    formats: [webp, original] # Must be an array, and order matters.
+    formats: [webp, jpg, original] # Must be an array, and order matters.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 260
     attributes:
@@ -80,7 +90,7 @@ presets:
     #dimension_attributes: true # Page reflow begone!
     base_width: 260 # How wide the 1x image should be.
     link_source: true # wrap images in a link to the original source image.
-    formats: [webp, original] # Must be an array, and order matters.
+    formats: [webp, jpg, original] # Must be an array, and order matters.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 260
     attributes:
@@ -90,7 +100,7 @@ presets:
   logo:
     #dimension_attributes: true # Page reflow begone!
     base_width: 200 # How wide the 1x image should be.
-    formats: [webp, png] # Must be an array, and order matters.
+    formats: [webp, jpg, png] # Must be an array, and order matters.
     link_source: false # wrap images in a link to the original source image.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 200
@@ -100,7 +110,7 @@ presets:
   thumb:
     #dimension_attributes: true # Page reflow begone!
     base_width: 160 # How wide the 1x image should be.
-    formats: [webp, original] # Must be an array, and order matters.
+    formats: [webp, jpg, original] # Must be an array, and order matters.
     link_source: true # wrap images in a link to the original source image.
     pixel_ratios: [1, 1.5, 2]
     fallback_width: 160
@@ -112,7 +122,7 @@ presets:
   # something like lazyload: https://github.com/verlok/lazyload
   lazy:
     markup: data_auto
-    formats: [webp, original]
+    formats: [webp, jpg, original]
     widths: [200, 400, 600, 800]
     noscript: true # add a fallback image inside a <noscript> tag.
     attributes: 
@@ -123,10 +133,10 @@ presets:
   # else.
   direct:
     markup: direct_url
-    fallback_format: webp
+    fallback_format: jpg
     fallback_width: 600
 
   # Here's a naked srcset. Doesn't even give you the surrounding quotes.
   srcset:
     markup: naked_srcset
-    formats: [webp] # must be an array, even if it only has one item
+    formats: [webp, jpg] # must be an array, even if it only has one item
