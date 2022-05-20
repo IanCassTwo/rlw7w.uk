@@ -12,7 +12,7 @@ Whilst the original 3.9 axle ratio is tolerable with the Vauxhall 5-speed gearbo
 
 * The axle input flange to centre line distance is similar but not the same. An MGB is about 9.5" whilst the RV8 is slightly less at about 9.25". This places the input flange slightly further away from the propshaft. My "1310 with 1140 face" yoke is longer than a standard 1310 output yoke so I'll probably need to run a spacer to make up the difference
 
-* The wheel PCD is 4 x 4.5" the same as the MGB however the studs are now metric M12 x 1.5. This obviously means that I'll need new wheel nuts
+* The wheel PCD is 4 x 4.5" the same as the MGB however the studs are metric M12 x 1.5. Luckily, the MGB 1/2"x20 studs will fit into the RV8 hubs without too much persuasion
 
 * The hubs have a hub flange at 73mm for hub-centric wheels. The MGB hubs do not have hub-centric flanges but my LE alloy wheels do at 78mm so I'd probably choose to use spigots
 
