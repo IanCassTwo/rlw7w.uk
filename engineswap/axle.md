@@ -22,6 +22,12 @@ While the original 3.9 axle ratio is tolerable with the Vauxhall 5-speed gearbox
 
 * The flange for securing the axle to the springs is in the same place as on the MGB and looks to be entirely compatible. However it's missing the fitting where you attach the droop straps. The RV8 had telescopic shocks so I guess they were used for that purpose instead
 
+After fitting the axle, it became apparent that I have a few more challenges to address:-
+
+* Torque effects. My propshaft is quite a bit fatter than the RV8 propshaft. This leaves little room in the transmission tunnel for the handbrake mechanism which has now changed from a single cable to two cables and a rather large bracket. Space is very limited and any excessive vertical movement of the axle will cause the propshaft to interfere. To limit this, I've added some [torque control arms](/engineswap/torquecontrolarms/) to limit the vertical rotation of the axle & hence the up/down movement of the propshaft.
+
+* Tyre rub. On hard cornering, the tyre rubs on the wheel arch. So far I've not noticed this on compression of suspension, only on cornering which would suggest that the cause is lateral movement of the axle. A panhard rod would prevent this.
+
 {% picture PXL_20220516_091912149.jpg %}
 {% picture mediumthumb PXL_20220516_181941861.jpg %}
 {% picture mediumthumb PXL_20220517_083413466.jpg %}
@@ -32,5 +38,9 @@ While the original 3.9 axle ratio is tolerable with the Vauxhall 5-speed gearbox
 {% picture mediumthumb PXL_20220516_181850391.jpg %}
 {% picture mediumthumb PXL_20220516_181932566.jpg %}
 {% picture mediumthumb PXL_20220517_144605876.jpg %}
+{% picture mediumthumb PXL_20220528_160916089.jpg %}
+{% picture mediumthumb PXL_20220617_180413439.jpg %}
+{% picture mediumthumb PXL_20220619_135513233.jpg %}
+{% picture PXL_20220612_161924237.jpg %}
 {% picture mediumthumb PXL_20220517_143507718.jpg %}
 {% picture mediumthumb PXL_20220517_143446091.jpg %}
