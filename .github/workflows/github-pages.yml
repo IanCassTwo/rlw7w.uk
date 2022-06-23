@@ -18,16 +18,18 @@ jobs:
       contents: write
     steps:     
     
+      # Jekyll Picture Tag requires libvips libraries for resizing images, which must be installed
+      - name: Install JPT's dependencies
+        run: sudo apt-get install libvips-tools
+        
       - name: Checkout repo
-        uses: actions/checkout@v2
-       
-       # Use GitHub Actions' cache to shorten build times and decrease load on servers
-      - uses: actions/cache@v2
+        uses: actions/checkout@v2          
+            
+      # Install the proper version of Ruby and run bundle install
+      - name: 💎 setup ruby
+        uses: ruby/setup-ruby@v1
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
+          bundler-cache: true
         
       - name: Run images script
         run: |
@@ -35,14 +37,22 @@ jobs:
          cd ./assets/images
          ./_resizeimages.sh
         shell: bash
-        
+      
+      # Push the converted images back to Github
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: resized images
+                            
+      # Build the site
+      - name: Jekyll build
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
         
-      - name: Create Jekyll site
-        uses: helaili/jekyll-action@v2
+      # Publish built site to Pages
+      - name: 🚀 deploy
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: ${{ secrets.TOKEN }}
-          pre_build_commands: |
-            apk --update add vips vips-tools
+          branch: gh-pages
+          folder: _site
+          force: false
