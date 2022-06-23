@@ -209,29 +209,29 @@
     "url": "/",
     "relUrl": "/"
   },"35": {
-    "doc": "Brakes",
-    "title": "Brakes",
-    "content": "## Brakes A car with an engine swap needs to have good brakes so I made sure that the braking system is in good shape with updated components where necessary ",
-    "url": "/brakes/",
-    "relUrl": "/brakes/"
+    "doc": "Glass",
+    "title": "Glass",
+    "content": "## Glass ",
+    "url": "/glass/",
+    "relUrl": "/glass/"
   },"36": {
+    "doc": "Engine Swap",
+    "title": "Engine Swap",
+    "content": "## Engine Swap {% picture largethumb IMG_20200327_201050.jpg %} {: .d-inline-block .float-right .pl-5} I wanted to update this MGB with a more modern, powerful, reliable engine, with better brakes and with better suspension. I wasn't too interested in restoring the car to factory spec. This section describes everything that I had to do in order to fit this engine. ",
+    "url": "/engineswap/",
+    "relUrl": "/engineswap/"
+  },"37": {
     "doc": "Interior",
     "title": "Interior",
     "content": "## Interior {% picture mediumthumb BURST20181019180633828_COVER.jpg %} {: .d-inline-block .float-right .pl-5} The car was completely gutted when I got it. There was literally no interior at all installed in the car. I did get some of it seperately in boxes but there was a lot of it missing, damaged or just worn out. For example, I don't have any carpet or door cards and it didn't have any headlining. The seats were worn out and let's be honest, even brand new they would have looked horrible. Various other trim is going to need refinishing or rebuilding. However, it's not a large or complicated interior so I see this as an ideal opportunity to make it my own. ",
     "url": "/interior/",
     "relUrl": "/interior/"
-  },"37": {
-    "doc": "Body Shell",
-    "title": "Body Shell",
-    "content": "## Body Shell {% picture largethumb IMG_20180929_125152.jpg %} {: .d-inline-block .float-right .pl-5} I wouldn't normally consider buying a project in this state but the condition of the body shell was what sold it to me. The shell was solid. The inner and outer sills, castle rails and floor pan had all been replaced or had survived amazingly well from new (it had been Zeibarted at some point). The wings, scuttle and door panels had been replaced with genuine Heritage parts. The inner and outer wheel arches were rot free. The only parts of the shell that needed more than cosmetic attention were the lower rear of the rear side windows, the front of the chassis rails, and the sunroof. In the grand scheme of things, these items were trivial. ",
-    "url": "/bodyshell/",
-    "relUrl": "/bodyshell/"
   },"38": {
-    "doc": "Suspension",
-    "title": "Suspension",
-    "content": "## Suspension As well as going well, and stopping well, I also wanted my MGB to handle well. This meant that my suspension also needed some well deserved attention. ",
-    "url": "/suspension/",
-    "relUrl": "/suspension/"
+    "doc": "Lights",
+    "title": "Lights",
+    "content": " ",
+    "url": "/lights/",
+    "relUrl": "/lights/"
   },"39": {
     "doc": "Wiring",
     "title": "Wiring",
@@ -239,23 +239,23 @@
     "url": "/wiring/",
     "relUrl": "/wiring/"
   },"40": {
-    "doc": "Engine Swap",
-    "title": "Engine Swap",
-    "content": "## Engine Swap {% picture largethumb IMG_20200327_201050.jpg %} {: .d-inline-block .float-right .pl-5} I wanted to update this MGB with a more modern, powerful, reliable engine, with better brakes and with better suspension. I wasn't too interested in restoring the car to factory spec. This section describes everything that I had to do in order to fit this engine. ",
-    "url": "/engineswap/",
-    "relUrl": "/engineswap/"
+    "doc": "Suspension",
+    "title": "Suspension",
+    "content": "## Suspension As well as going well, and stopping well, I also wanted my MGB to handle well. This meant that my suspension also needed some well deserved attention. ",
+    "url": "/suspension/",
+    "relUrl": "/suspension/"
   },"41": {
-    "doc": "Glass",
-    "title": "Glass",
-    "content": "## Glass ",
-    "url": "/glass/",
-    "relUrl": "/glass/"
+    "doc": "Brakes",
+    "title": "Brakes",
+    "content": "## Brakes A car with an engine swap needs to have good brakes so I made sure that the braking system is in good shape with updated components where necessary ",
+    "url": "/brakes/",
+    "relUrl": "/brakes/"
   },"42": {
-    "doc": "Lights",
-    "title": "Lights",
-    "content": " ",
-    "url": "/lights/",
-    "relUrl": "/lights/"
+    "doc": "Body Shell",
+    "title": "Body Shell",
+    "content": "## Body Shell {% picture largethumb IMG_20180929_125152.jpg %} {: .d-inline-block .float-right .pl-5} I wouldn't normally consider buying a project in this state but the condition of the body shell was what sold it to me. The shell was solid. The inner and outer sills, castle rails and floor pan had all been replaced or had survived amazingly well from new (it had been Zeibarted at some point). The wings, scuttle and door panels had been replaced with genuine Heritage parts. The inner and outer wheel arches were rot free. The only parts of the shell that needed more than cosmetic attention were the lower rear of the rear side windows, the front of the chassis rails, and the sunroof. In the grand scheme of things, these items were trivial. ",
+    "url": "/bodyshell/",
+    "relUrl": "/bodyshell/"
   },"43": {
     "doc": "Intake",
     "title": "Intake",
