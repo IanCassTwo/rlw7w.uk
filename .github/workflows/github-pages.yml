@@ -4,14 +4,30 @@ on:
   push:
     branches:
       - main 
+  workflow_dispatch:
+
+# Cancel any runs in progress -- just complete the latest run
+concurrency: 
+  group: github_pages
+  cancel-in-progress: true
 
 jobs:
   github-pages:
     runs-on: ubuntu-20.04
-    steps:          
-        
+    permissions: 
+      contents: write
+    steps:     
+    
       - name: Checkout repo
         uses: actions/checkout@v2
+       
+       # Use GitHub Actions' cache to shorten build times and decrease load on servers
+      - uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
         
       - name: Run images script
         run: |
@@ -30,7 +46,3 @@ jobs:
           token: ${{ secrets.TOKEN }}
           pre_build_commands: |
             apk --update add vips vips-tools
-      - name: Show Response
-        run: echo ${{ steps.myRequest.outputs.response }}
-
-
