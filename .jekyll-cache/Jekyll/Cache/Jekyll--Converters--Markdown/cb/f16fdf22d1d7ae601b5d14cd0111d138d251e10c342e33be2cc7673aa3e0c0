@@ -1,0 +1,39 @@
+I"�	<h2 id="diagnostics-port">Diagnostics Port</h2>
+
+<p>Whilst the Omega does have what appears to be an OBD2 port, the Bosch Motronic M2.8.1 does not use OBD2 protocol. It uses a previous generation of protocol that was manufacturer specific. In this case, it uses KW82 protocol at 9600 baud which was an Opel improvement to <a href="http://www.cardiagnostics.be/-now/GT1-MODIC-DIS_bestanden/Prescription%20Protocol%20KW-71.htm">Bosch’s original KW71 protocol</a>. I’ve not been able to find any specifications on this other than it’s a keyword protocol using ISO-9141 electrical interface on pin 7 (K-line) and does not use pin 15 (L-line).  Other ECUs in the car (e.g. immobiliser) are available on other pins.</p>
+
+<p>You’ll need a Vauxhall/Opel tool to communicate with the ECU. The official tools are VERY expensive and out of reach of the home mechanic, but if you google for OPCOM or VauxCom, you’ll find lots of cheap Chinese interfaces that allow you to interface your laptop with your ECU. The quality of these varies, and they are all hassle to get working, but once you’ve got over the complicated setup, they work quite well.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Pin</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3</td>
+      <td>ISO 9141-2 K-Line from Immobilizer ECU</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Ground</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Ground</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>ISO 9141-2 K-Line from Engine ECU</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>12v</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a class="lightbox-image" title="" href="/assets/images/resized/obd2.png"><picture><source sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" srcset="/assets/images/generated/obd2-200-b905652df.webp 200w, /assets/images/generated/obd2-368-b905652df.webp 368w" type="image/webp"><source sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" srcset="/assets/images/generated/obd2-200-4f3e1fe40.jpg 200w, /assets/images/generated/obd2-368-4f3e1fe40.jpg 368w" type="image/jpeg"><source sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" srcset="/assets/images/generated/obd2-200-4f3e1fe40.png 200w, /assets/images/generated/obd2-368-4f3e1fe40.png 368w" type="image/png"><img class="gallery-image" src="/assets/images/generated/obd2-368-4f3e1fe40.png"></picture></a></p>
+:ET

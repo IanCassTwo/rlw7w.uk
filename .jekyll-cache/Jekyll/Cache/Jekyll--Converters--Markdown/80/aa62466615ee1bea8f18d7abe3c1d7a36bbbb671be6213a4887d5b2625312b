@@ -1,0 +1,40 @@
+I"�<h2 id="spring-spacers">Spring Spacers</h2>
+
+<p>I have C-AHT21 competition springs on the front of my MGB because I wanted to lower it to a similar height as chrome bumpered cars. However, no matter how cool it looks, it’s too low. I struggle with speed humps, I get noticable bump steer and occasionally ground out on bumpy roads.</p>
+
+<p>The car was ~13.5” from centre of the wheel to the bottom of the chrome strip. The suspension and steering arms were noticably angled upwards I wanted to raise this to almost an inch to bring the suspension geometry closer to where it should be so I figured I would to try some longer springs. The ratio of spring length difference to height difference is approx 2:1, so an additional 1/2” height in spring will cause the car to be 1” taller given the same wire diameter and spring rate. This means I’d need springs about 9.3” long which happens to be exactly the length of the spare BHH1077 springs that I had. However, when I put these in the car, the ride height was about 17.5”!! This would obviously settle over time but a week and about 100 miles had it settle just 1/4” and I wasn’t convinced it would settle another 3”!</p>
+
+<p>I needed another plan. I could either randomly try other springs according to the table below or I could work with the ones I have. Randomly trying new stuff takes time to yield results &amp; gets expensive real fast so I decided to do the latter, at least temporarily. I cut some nylon plastic rings from a kitchen chopping board (6mm thick) and added one to the bottom spring cup and one to the top.  This gave me a total length of 9.27” which is just 0.1” shorter than the BHH1077 springs. The car is now running almost 14.5” ride height which is exactly the height I was after.</p>
+
+<p>I can’t explain why the BHH1077 springs made the ride height so tall. I do plan to try some alternatives at some point, but for now the car is running well with the spacers. Was it worth it? Well, The suspension geometry is now only slightly compromised and the ride quality has significantly improved. I no longer have bad bump steer and I don’t ground out on bumpy roads. I’ve not been brave enough to try speed humps yet.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Spring</th>
+      <th style="text-align: left">Free Length</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">C-AHT21</td>
+      <td style="text-align: left">8.63</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">AHH5546</td>
+      <td style="text-align: left">8.8</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">AHH5789</td>
+      <td style="text-align: left">9.1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">BHH1077</td>
+      <td style="text-align: left">9.3</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a class="lightbox-image" title="" href="/assets/images/resized/PXL_20210509_171803432.jpg"><picture><source srcset="/assets/images/generated/PXL_20210509_171803432-736-7db9e128c.webp 1.0x, /assets/images/generated/PXL_20210509_171803432-1104.0-7db9e128c.webp 1.5x, /assets/images/generated/PXL_20210509_171803432-1440-7db9e128c.webp 1.96x" type="image/webp"><source srcset="/assets/images/generated/PXL_20210509_171803432-736-19e375065.jpg 1.0x, /assets/images/generated/PXL_20210509_171803432-1104.0-19e375065.jpg 1.5x, /assets/images/generated/PXL_20210509_171803432-1440-19e375065.jpg 1.96x" type="image/jpeg"><source srcset="/assets/images/generated/PXL_20210509_171803432-736-19e375065.jpg 1.0x, /assets/images/generated/PXL_20210509_171803432-1104.0-19e375065.jpg 1.5x, /assets/images/generated/PXL_20210509_171803432-1440-19e375065.jpg 1.96x" type="image/jpeg"><img class="blog" src="/assets/images/generated/PXL_20210509_171803432-736-19e375065.jpg"></picture></a>
+<a class="lightbox-image" title="" href="/assets/images/resized/PXL_20210511_172758263.jpg"><picture><source srcset="/assets/images/generated/PXL_20210511_172758263-736-6366345bf.webp 1.0x, /assets/images/generated/PXL_20210511_172758263-1104.0-6366345bf.webp 1.5x, /assets/images/generated/PXL_20210511_172758263-1472-6366345bf.webp 2.0x" type="image/webp"><source srcset="/assets/images/generated/PXL_20210511_172758263-736-142ca382e.jpg 1.0x, /assets/images/generated/PXL_20210511_172758263-1104.0-142ca382e.jpg 1.5x, /assets/images/generated/PXL_20210511_172758263-1472-142ca382e.jpg 2.0x" type="image/jpeg"><source srcset="/assets/images/generated/PXL_20210511_172758263-736-142ca382e.jpg 1.0x, /assets/images/generated/PXL_20210511_172758263-1104.0-142ca382e.jpg 1.5x, /assets/images/generated/PXL_20210511_172758263-1472-142ca382e.jpg 2.0x" type="image/jpeg"><img class="blog" src="/assets/images/generated/PXL_20210511_172758263-736-142ca382e.jpg"></picture></a></p>
+:ET
