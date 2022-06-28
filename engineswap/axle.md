@@ -3,7 +3,7 @@ layout: page
 title: MG RV8 Axle
 parent: Engine Swap
 ---
-## Axle
+## MG RV8 Axle
 While the original 3.9 axle ratio is tolerable with the Vauxhall 5-speed gearbox, it's not ideal. I'd often find myself pulling away in 2nd gear. I'd prefer the final drive ratio to be a bit taller. In pursuit of this, I won an auction on Ebay for an MG RV8 axle at a price that I could not refuse. This is actually completely different to a standard MGB axle. It was used on a 1992-1995 MG RV8 which was based on an MGB. It's a Salisbury 12HA axle apparently originally found in a Leyland Sherpa. It's a 3.3 ratio and has an OEM Quaife torque sensing limited slip differential (LSD). There are a number of other differences as follows:-
 
 * It's slightly wider at approximately 52.5" vs 51.5" for the MGB steel wheel axle. I don't think this will cause an issue with wheel clearance on compression if the axle stays central. I was planning on fitting a panhard rod at some point anyway so perhaps this has moved up the agenda
