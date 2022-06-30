@@ -1,0 +1,101 @@
+I"�#<h2 id="central-locking">Central Locking</h2>
+<p>There’s not many modern features I miss on my MGB but central locking is one of them. Luckily, central locking kits are dirt cheap on ebay and are not hard to fit. There’s a few components that need to be fitted in order for it to all work</p>
+
+<h3 id="door-solenoids">Door Solenoids</h3>
+<p>The basic function of both the drivers and passenger door solenoids is to push or pull the locking mechanism to lock or unlock the door. To do this, they have 2 wires that take a positive and a ground (generally green &amp; blue). The polarity of these wires is swapped depending on whether you want them to lock or unlock. These wires engergize a motor or a relay to cause a rod to be pushed or pulled. This rod is joined to the MGB lock operating rod using a clamp. The solenoids also have another 3 wires which allow a central locking relay to determine the current position of the solenoid (open or closed). The relay can then drive a second solenoid to mirror the action of the first. The solenoids are also designed so that they can be operated manually by turning the key in the lock</p>
+
+<p><a class="lightbox-image" title="" href="/assets/images/resized/solenoid.jpg"><picture><source srcset="/assets/images/generated/solenoid-736-011254887.webp 1.0x, /assets/images/generated/solenoid-1000-011254887.webp 1.36x" type="image/webp"><source srcset="/assets/images/generated/solenoid-736-5aeaa217c.jpg 1.0x, /assets/images/generated/solenoid-1000-5aeaa217c.jpg 1.36x" type="image/jpeg"><source srcset="/assets/images/generated/solenoid-736-5aeaa217c.jpg 1.0x, /assets/images/generated/solenoid-1000-5aeaa217c.jpg 1.36x" type="image/jpeg"><img class="blog" src="/assets/images/generated/solenoid-736-5aeaa217c.jpg"></picture></a></p>
+
+<h4 id="drivers-door">Drivers Door</h4>
+<p>The drivers door solenoid takes its input on green and blue wires from either the remote central locking ECU or from the alarm unit if that has a central locking function. This allows the solenoid to be energised to either lock or unlock based on a button press on a remote. However, the drivers door solenoid doesn’t have to be electrically operated (even if these wires are connected). It can be manually operated from the key or from the locking lever inside the cabin.</p>
+
+<p>The drivers door solenoid has an additional 3 wires. One of these is connected to ground and the other is switched to ground depending on whether the door is locked or unlocked. These 3 wires are connected to the central locking relay and are used to drive the passenger door solenoid to mirror the drivers door solenoid. This allows the passenger door to mirror the state of the drivers door.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Wire</th>
+      <th style="text-align: left">Function</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>blue &amp; green</td>
+      <td style="text-align: left">One of these pins should be positive and the other ground depending on lock or unlock. Leave disconnected for manual operation, or wired to the alarm or some other central locking controller for keyless entry</td>
+    </tr>
+    <tr>
+      <td>black</td>
+      <td style="text-align: left">ground</td>
+    </tr>
+    <tr>
+      <td>white &amp; brown</td>
+      <td style="text-align: left">Connected to the central locking relay pins 2 &amp; 3. One of these pins will be grounded depending on lock position</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="passenger-door">Passenger Door</h4>
+<p>The passenger door solenoid has only 2 (functional) wires (blue and green). These are driven by the central locking relay and effectively mirror the state of the drivers door. For simplicities sake, we won’t be attempting to allow the passenger door solenoid to operate the drivers door.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Wire</th>
+      <th style="text-align: left">Function</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>blue &amp; green</td>
+      <td style="text-align: left">Connected to the central locking relay pins 1M and 2M</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>Note, if your passenger solenoid has 5 wires, only use the blue &amp; green</em></p>
+
+<h3 id="central-locking-relay">Central Locking Relay</h3>
+<p>This 6-pin relay allows the passenger door solenoid to mirror the actions of the drivers door solenoid no matter how it’s actuated. The way that it does this is to utilize the two output wires from the drivers solenoid to selectively ground either pin “2” or pin “3” on the relay which causes pin “1M” to be positive and “2M” to be negative, or vice-versa. These are connected to the blue &amp; green wire on the passenger door solenoid. The relay has a short timer on it so that it will only fire for a second or so.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Pin</th>
+      <th style="text-align: left">Function</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>+</td>
+      <td style="text-align: left">Permanent Live</td>
+    </tr>
+    <tr>
+      <td>E (or ground symbol)</td>
+      <td style="text-align: left">Ground</td>
+    </tr>
+    <tr>
+      <td>2 &amp; 3</td>
+      <td style="text-align: left">White &amp; brown from the drivers door solenoid</td>
+    </tr>
+    <tr>
+      <td>1M &amp; 2M</td>
+      <td style="text-align: left">Green &amp; blue to the passenger door solenoid</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>Note, experiment with orientation of pins 1M &amp; 2M until correct operation of passenger lock is achieved</em></p>
+
+<p><a class="lightbox-image" title="" href="/assets/images/resized/relay.jpg"><picture><source srcset="/assets/images/generated/relay-500-db0299504.webp 0.68x" type="image/webp"><source srcset="/assets/images/generated/relay-500-6fd1bf4d9.jpg 0.68x" type="image/jpeg"><source srcset="/assets/images/generated/relay-500-6fd1bf4d9.jpg 0.68x" type="image/jpeg"><img class="blog" src="/assets/images/generated/relay-500-6fd1bf4d9.jpg"></picture></a></p>
+
+<h3 id="mounting-location">Mounting Location</h3>
+<p>The solenoid must be positioned in a place where it can operate the locking mechanism but also where it won’t be affected by the window winder mechanism. I found that the ideal place for is is just below the door locking mechanism. The operating rod should be shortened and bent into shape so it can operate the rod. The rods can then be joined by the supplied clamp. I suggest you use Locktight on the threads to prevent it from coming loose.</p>
+
+<p><a class="lightbox-image" title="" href="/assets/images/resized/solenoid-location.jpg"><picture><source srcset="/assets/images/generated/solenoid-location-736-5cf7937cd.webp 1.0x, /assets/images/generated/solenoid-location-1104.0-5cf7937cd.webp 1.5x, /assets/images/generated/solenoid-location-1440-5cf7937cd.webp 1.96x" type="image/webp"><source srcset="/assets/images/generated/solenoid-location-736-cc7188336.jpg 1.0x, /assets/images/generated/solenoid-location-1104.0-cc7188336.jpg 1.5x, /assets/images/generated/solenoid-location-1440-cc7188336.jpg 1.96x" type="image/jpeg"><source srcset="/assets/images/generated/solenoid-location-736-cc7188336.jpg 1.0x, /assets/images/generated/solenoid-location-1104.0-cc7188336.jpg 1.5x, /assets/images/generated/solenoid-location-1440-cc7188336.jpg 1.96x" type="image/jpeg"><img class="blog" src="/assets/images/generated/solenoid-location-736-cc7188336.jpg"></picture></a>
+<a class="lightbox-image" title="" href="/assets/images/resized/PXL_20210313_122358872.jpg"><picture><source srcset="/assets/images/generated/PXL_20210313_122358872-736-6db7958de.webp 1.0x, /assets/images/generated/PXL_20210313_122358872-1104.0-6db7958de.webp 1.5x, /assets/images/generated/PXL_20210313_122358872-1384-6db7958de.webp 1.88x" type="image/webp"><source srcset="/assets/images/generated/PXL_20210313_122358872-736-d471ff887.jpg 1.0x, /assets/images/generated/PXL_20210313_122358872-1104.0-d471ff887.jpg 1.5x, /assets/images/generated/PXL_20210313_122358872-1384-d471ff887.jpg 1.88x" type="image/jpeg"><source srcset="/assets/images/generated/PXL_20210313_122358872-736-d471ff887.jpg 1.0x, /assets/images/generated/PXL_20210313_122358872-1104.0-d471ff887.jpg 1.5x, /assets/images/generated/PXL_20210313_122358872-1384-d471ff887.jpg 1.88x" type="image/jpeg"><img class="blog" src="/assets/images/generated/PXL_20210313_122358872-736-d471ff887.jpg"></picture></a></p>
+
+<h3 id="wiring-diagram">Wiring Diagram</h3>
+
+<p><a class="lightbox-image" title="" href="/assets/images/resized/8_central_locking.png"><picture><source srcset="/assets/images/generated/8_central_locking-736-dd569772d.webp 1.0x, /assets/images/generated/8_central_locking-924-dd569772d.webp 1.26x" type="image/webp"><source srcset="/assets/images/generated/8_central_locking-736-7ed37e449.jpg 1.0x, /assets/images/generated/8_central_locking-924-7ed37e449.jpg 1.26x" type="image/jpeg"><source srcset="/assets/images/generated/8_central_locking-736-7ed37e449.png 1.0x, /assets/images/generated/8_central_locking-924-7ed37e449.png 1.26x" type="image/png"><img class="blog" src="/assets/images/generated/8_central_locking-736-7ed37e449.png"></picture></a></p>
+
+:ET
