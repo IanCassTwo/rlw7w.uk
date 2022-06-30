@@ -7,14 +7,14 @@ parent: Wiring
 There's not many modern features I miss on my MGB but central locking is one of them. Luckily, central locking kits are dirt cheap on ebay and are not hard to fit. There's a few components that need to be fitted in order for it to all work
 
 ### Door Solenoids
-The basic function of both the drivers and passenger door solenoids is to push or pull the locking mechanism to lock or unlock the door. To do this, they have 2 wires that take a positive and a ground (generally green & blue). The polarity of these wires is swapped depending on whether you want them to lock or unlock. These wires engergize a motor or a relay to cause a rod to be pushed or pulled. This rod is joined to the MGB lock operating rod using a clamp.
+The basic function of both the drivers and passenger door solenoids is to push or pull the locking mechanism to lock or unlock the door. To do this, they have 2 wires that take a positive and a ground (generally green & blue). The polarity of these wires is swapped depending on whether you want them to lock or unlock. These wires engergize a motor or a relay to cause a rod to be pushed or pulled. This rod is joined to the MGB lock operating rod using a clamp. The solenoids also have another 3 wires which allow a central locking relay to determine the current position of the solenoid (open or closed). The relay can then drive a second solenoid to mirror the action of the first. The solenoids are also designed so that they can be operated manually by turning the key in the lock
 
 {% picture blog  solenoid.jpg %}
 
 #### Drivers Door
 The drivers door solenoid takes its input on green and blue wires from either the remote central locking ECU or from the alarm unit if that has a central locking function. This allows the solenoid to be energised to either lock or unlock based on a button press on a remote. However, the drivers door solenoid doesn't have to be electrically operated (even if these wires are connected). It can be manually operated from the key or from the locking lever inside the cabin. 
 
-The drivers door solenoid has an additional 3 wires. One of these is connected to ground and the other is switched to ground depending on whether the door is locked or unlocked. These 3 wires are used to drive the passenger door solenoid via the central locking relay. This allows the passenger door to mirror the state of the drivers door.
+The drivers door solenoid has an additional 3 wires. One of these is connected to ground and the other is switched to ground depending on whether the door is locked or unlocked. These 3 wires are connected to the central locking relay and are used to drive the passenger door solenoid to mirror the drivers door solenoid. This allows the passenger door to mirror the state of the drivers door.
 
 | Wire | Function                    | 
 | --- |:---------------------------|
