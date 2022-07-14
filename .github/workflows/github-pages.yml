@@ -38,17 +38,17 @@ jobs:
          cd ./assets/images
          ./_resizeimages.sh
         shell: bash      
-        
-      # Push the converted images back to Github
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Commited by github actions
                             
       # Build the site
       - name: Jekyll build
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+          
+      # Push changes back to Github
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Commited by github actions
                   
       # Publish built site to Pages
       - name: 🚀 deploy
