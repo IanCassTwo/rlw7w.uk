@@ -1,4 +1,0 @@
-I"œ<h2 id="engine-temperature">Engine Temperature</h2>
-
-<p>The coolant temperature output from the ECU (pin 11) works on the same principle as the MGB coolant temperature so the wire can be connected directly to the Smiths gauge. The gauge reads somewhat on the low side but itâ€™s certainly working well enough to be useful. If this concerns me in future, I can either change the temperature sender to an <a href="https://www.merlinmotorsport.co.uk/p/smiths-temperature-sender-1-8npt-cb-ts-18">alternative designed for Smiths classic instruments</a> or I can use a <a href="https://spiyda.com/fuel-gauge-wizard-mk3.html">Spyda Guage Wizard</a> to adapt the signals.</p>
-:ET

@@ -1,7 +1,0 @@
-I"÷<h2 id="fuel-tank-purge-valve">Fuel Tank Purge Valve</h2>
-
-<p>The ECU will occasionally want to trigger a fuel tank purge valve. The purpose of this is to <a href="https://en.wikipedia.org/wiki/Onboard_refueling_vapor_recovery">vent fuel vapour from the charcoal canister into the inlet manifold</a>. In general, this is a good thing. However my UK model MGB never came with a charcoal canister. We vent our fuel tank to the atmosphere.</p>
-
-<p>Perhaps at some point, Iâ€™ll install a closed loop vapour emissions system, but for now, I want to bypass this function. Once again, the ECU just wants to see some evidence that a relay has fired, so the same trick will work here as for the SAI. Bridge the purge valve connector with a 100-200 Ohm resistor.</p>
-
-:ET
