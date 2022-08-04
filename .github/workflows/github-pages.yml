@@ -50,14 +50,7 @@ jobs:
         with:
           commit_message: Commited by github actions
                   
-#      # Publish built site to Pages
-#      - name: 🚀 deploy
-#        uses: JamesIves/github-pages-deploy-action@v4
-#        with:
-#          branch: gh-pages
-#          folder: _site
-#          force: false
-
+      # Deploy to Akamai Netstorage
       # Install SSH Key
       - name: Install SSH Key
         uses: shimataro/ssh-key-action@v2
@@ -73,3 +66,10 @@ jobs:
       - name: Deploy with rsync
         run: rsync -avz -e 'ssh -oHostKeyAlgorithms=+ssh-dss' ./_site/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/350001/rlw7w/
 
+      # Deploy to Github Pages
+      - name: Github pages deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: _site
+          force: false
