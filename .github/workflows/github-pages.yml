@@ -58,14 +58,18 @@ jobs:
 #          folder: _site
 #          force: false
 
-#      Publish built site to Akamai Netstorage
-      - name: Deploy to sandbox via rsync
-        uses: trendyminds/github-actions-rsync@master
+      # Install SSH Key
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
         with:
-          RSYNC_OPTIONS: -avzr --delete --exclude node_modules --exclude '.git*'
-          RSYNC_TARGET: /rlw7w/
-          RSYNC_SOURCE: _site/
-        env:
-          SSH_PRIVATE_KEY: ${{secrets.SSH_KEY}}
-          SSH_USERNAME: ssh_acs
-          SSH_HOSTNAME: icass2.rsync.upload.akamai.com
+          key: ${{ secrets.SSH_KEY }}
+          known_hosts: 'just-a-placeholder-so-we-dont-get-errors'
+       
+      # Update known_hosts 
+      - name: Adding Known Hosts
+        run: ssh-keyscan -t dsa -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+
+      # Publish built site to Akamai Netstorage
+      - name: Deploy with rsync
+        run: rsync -avz ./_site/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/rlw7w/
+
