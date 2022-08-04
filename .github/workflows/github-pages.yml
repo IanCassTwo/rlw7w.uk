@@ -51,7 +51,7 @@ jobs:
           commit_message: Commited by github actions
                   
       # Deploy to Akamai Netstoragesteps:
-        uses: jdmevo123/akamai-netstorage-action@1.0
+      - uses: jdmevo123/akamai-netstorage-action@1.0
         env:
           AKAMAI_PRIVATEKEY: ${{ secrets.SSH_KEY }}
         with:
