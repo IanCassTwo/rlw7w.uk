@@ -50,16 +50,6 @@ jobs:
         with:
           commit_message: Commited by github actions
                   
-      # Deploy to Akamai Netstoragesteps:
-      - uses: jdmevo123/akamai-netstorage-action@1.0
-        env:
-          AKAMAI_PRIVATEKEY: ${{ secrets.SSH_KEY }}
-        with:
-          uploadDirectory: '350001'
-          path: '_site'
-          domainName: 'icass2'
-          nspath: 'rlw7w'
-
       # Deploy to Github Pages
       - name: Github pages deploy
         uses: JamesIves/github-pages-deploy-action@v4
