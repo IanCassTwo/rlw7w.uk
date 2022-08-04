@@ -64,7 +64,7 @@ jobs:
 
       # Publish built site to Akamai Netstorage
       - name: Deploy with rsync
-        run: rsync -avz -e 'ssh -oHostKeyAlgorithms=+ssh-dss' ./_site/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/350001/rlw7w/
+        run: rsync -av -e 'ssh -oHostKeyAlgorithms=+ssh-dss' ./_site/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/350001/rlw7w/
 
       # Deploy to Github Pages
       - name: Github pages deploy
