@@ -59,12 +59,13 @@ jobs:
 #          force: false
 
 #      Publish built site to Akamai Netstorage
-      - name: rsync deployments
-        uses: burnett01/rsync-deployments@5.2.1
+      - name: Deploy to sandbox via rsync
+        uses: trendyminds/github-actions-rsync@master
         with:
-          switches: -avzr --delete
-          path: _site/
-          remote_path: /rlw7w/
-          remote_host: icass2.rsync.upload.akamai.com
-          remote_user: sshacs
-          remote_key: ${{ secrets.SSH_KEY }}
+          RSYNC_OPTIONS: -avzr --delete --exclude node_modules --exclude '.git*'
+          RSYNC_TARGET: /rlw7w/
+          RSYNC_SOURCE: _site/
+        env:
+          SSH_PRIVATE_KEY: ${{secrets.SSH_KEY}}
+          SSH_USERNAME: ssh_acs
+          SSH_HOSTNAME: icass2.rsync.upload.akamai.com
