@@ -50,21 +50,15 @@ jobs:
         with:
           commit_message: Commited by github actions
                   
-      # Deploy to Akamai Netstorage
-      # Install SSH Key
-      - name: Install SSH Key
-        uses: shimataro/ssh-key-action@v2
+      # Deploy to Akamai Netstoragesteps:
+        uses: jdmevo123/akamai-netstorage-action@1.0
+        env:
+          AKAMAI_PRIVATEKEY: ${{ secrets.SSH_KEY }}
         with:
-          key: ${{ secrets.SSH_KEY }}
-          known_hosts: 'just-a-placeholder-so-we-dont-get-errors'
-       
-      # Update known_hosts 
-      - name: Adding Known Hosts
-        run: ssh-keyscan -t dsa -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
-
-      # Publish built site to Akamai Netstorage
-      - name: Deploy with rsync
-        run: rsync -avW -e 'ssh -oHostKeyAlgorithms=+ssh-dss' ./_site/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/350001/rlw7w/
+          uploadDirectory: '350001'
+          path: '_site'
+          domainName: 'icass2'
+          nspath: 'rlw7w'
 
       # Deploy to Github Pages
       - name: Github pages deploy
