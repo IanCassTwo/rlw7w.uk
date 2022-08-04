@@ -50,10 +50,21 @@ jobs:
         with:
           commit_message: Commited by github actions
                   
-      # Publish built site to Pages
-      - name: 🚀 deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+#      # Publish built site to Pages
+#      - name: 🚀 deploy
+#        uses: JamesIves/github-pages-deploy-action@v4
+#        with:
+#          branch: gh-pages
+#          folder: _site
+#          force: false
+
+#      Publish built site to Akamai Netstorage
+      - name: rsync deployments
+        uses: burnett01/rsync-deployments@5.2.1
         with:
-          branch: gh-pages
-          folder: _site
-          force: false
+          switches: -avzr --delete
+          path: _site/
+          remote_path: /rlw7w/
+          remote_host: icass2.rsync.upload.akamai.com
+          remote_user: sshacs
+          remote_key: ${{ secrets.SSH_KEY }}
