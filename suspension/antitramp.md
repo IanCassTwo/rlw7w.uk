@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Anti Tramp Bars
+title: Anti-Tramp Bars
 parent: Suspension
 ---
 ## Traction Bars
