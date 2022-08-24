@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 for i in `ls _pristine/*.jpg`
 do 
 	f=`basename -s .jpg $i`
