@@ -24,7 +24,7 @@ While the original 3.9 axle ratio is tolerable with the Vauxhall 5-speed gearbox
 
 After fitting the axle, it became apparent that I have a few more challenges to address:-
 
-* Torque effects. My propshaft is quite a bit fatter than the RV8 propshaft. Space in the transmission tunnel is very limited and any excessive vertical movement of the axle will cause the propshaft to interfere. Now that I have more traction, the axle wants to twist more hence causing the nose of the diff to rise. To limit this, I've added some [torque control arms](/engineswap/torquecontrolarms/) to limit the rotation of the axle & hence the up/down movement of the propshaft.
+* Torque effects. My propshaft is quite a bit fatter than the RV8 propshaft. Space in the transmission tunnel is very limited and any excessive vertical movement of the axle will cause the propshaft to interfere. Now that I have more traction, the axle wants to twist more hence causing the nose of the diff to rise. To limit this, I've added some [anti tramp bars](/suspension/antitramp/) to limit the rotation of the axle & hence the up/down movement of the propshaft.
 
 * Tyre rub. On hard cornering, if I also hit a bump, the tyre rubs on the wheel arch. This would suggest that the cause is lateral movement of the axle. A panhard rod would prevent this.
 
