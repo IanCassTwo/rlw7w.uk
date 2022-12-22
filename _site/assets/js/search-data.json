@@ -71,9 +71,9 @@
     "url": "/interior/crashpad/",
     "relUrl": "/interior/crashpad/"
   },"12": {
-    "doc": "Diagnostics Port",
-    "title": "Diagnostics Port",
-    "content": "## Diagnostics Port Whilst the Omega does have what appears to be an OBD2 port, the Bosch Motronic M2.8.1 does not use OBD2 protocol. It uses a previous generation of protocol that was manufacturer specific. In this case, it uses KW82 protocol at 9600 baud which was an Opel improvement to [Bosch's original KW71 protocol](http://www.cardiagnostics.be/-now/GT1-MODIC-DIS_bestanden/Prescription%20Protocol%20KW-71.htm). I've not been able to find any specifications on this other than it's a keyword protocol using ISO-9141 electrical interface on pin 7 (K-line) and does not use pin 15 (L-line). Other ECUs in the car (e.g. immobiliser) are available on other pins. You'll need a Vauxhall/Opel tool to communicate with the ECU. The official tools are VERY expensive and out of reach of the home mechanic, but if you google for OPCOM or VauxCom, you'll find lots of cheap Chinese interfaces that allow you to interface your laptop with your ECU. The quality of these varies, and they are all hassle to get working, but once you've got over the complicated setup, they work quite well. | Pin | Description|-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 3 | ISO 9141-2 K-Line from Immobilizer ECU | 4 | Ground | 5 | Ground | 7 | ISO 9141-2 K-Line from Engine ECU | 16 | 12v {% picture obd2.png %} ",
+    "doc": "OBD Diagnostics",
+    "title": "OBD Diagnostics",
+    "content": "## OBD Diagnostics Whilst the Omega does have what appears to be an OBD2 port, the Bosch Motronic M2.8.1 does not use an OBD2 protocol. It uses a previous generation of protocol that was manufacturer specific. In this case, it uses KW82 protocol at 9600 baud which was an Opel improvement to [Bosch's original KW71 protocol](http://www.cardiagnostics.be/-now/GT1-MODIC-DIS_bestanden/Prescription%20Protocol%20KW-71.htm). I've not been able to find any specifications on this other than it's a keyword protocol using ISO-9141 electrical interface on pin 7 (K-line) and does not use pin 15 (L-line). Other ECUs in the car (e.g. immobiliser) use the same protocol but are available on other pins. The diagnostics cable contains the multiplexing hardware so the software can define which ping to access. You'll need Vauxhall/Opel specific diagnostics hardware and software to communicate with the ECU. The official tools are VERY expensive and out of reach of the home mechanic, but if you google for OPCOM or VauxCom, you'll find a cheap Chinese interface and software that allows you to interface your laptop with your ECU. The quality of these vary, and they are all a challenge to get working, but once you've got over the complicated setup, they work quite well. | Pin | Description|-----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 3 | ISO 9141-2 K-Line from Immobilizer ECU | 4 | Ground | 5 | Ground | 7 | ISO 9141-2 K-Line from Engine ECU | 16 | 12v {% picture obd2.png %} ",
     "url": "/engineswap/diagnosticsport/",
     "relUrl": "/engineswap/diagnosticsport/"
   },"13": {
@@ -215,23 +215,23 @@
     "url": "/",
     "relUrl": "/"
   },"36": {
-    "doc": "Lights",
-    "title": "Lights",
-    "content": " ",
-    "url": "/lights/",
-    "relUrl": "/lights/"
-  },"37": {
-    "doc": "Interior",
-    "title": "Interior",
-    "content": "## Interior {% picture mediumthumb BURST20181019180633828_COVER.jpg %} {: .d-inline-block .float-right .pl-5} The car was completely gutted when I got it. There was literally no interior at all installed in the car. I did get some of it seperately in boxes but there was a lot of it missing, damaged or just worn out. For example, I don't have any carpet or door cards and it didn't have any headlining. The seats were worn out and let's be honest, even brand new they would have looked horrible. Various other trim is going to need refinishing or rebuilding. However, it's not a large or complicated interior so I see this as an ideal opportunity to make it my own. ",
-    "url": "/interior/",
-    "relUrl": "/interior/"
-  },"38": {
     "doc": "Suspension",
     "title": "Suspension",
     "content": "## Suspension As well as going well, and stopping well, I also wanted my MGB to handle well. This meant that my suspension also needed some well deserved attention. ",
     "url": "/suspension/",
     "relUrl": "/suspension/"
+  },"37": {
+    "doc": "Body Shell",
+    "title": "Body Shell",
+    "content": "## Body Shell {% picture largethumb IMG_20180929_125152.jpg %} {: .d-inline-block .float-right .pl-5} I wouldn't normally consider buying a project in this state but the condition of the body shell was what sold it to me. The shell was solid. The inner and outer sills, castle rails and floor pan had all been replaced or had survived amazingly well from new (it had been Zeibarted at some point). The wings, scuttle and door panels had been replaced with genuine Heritage parts. The inner and outer wheel arches were rot free. The only parts of the shell that needed more than cosmetic attention were the lower rear of the rear side windows, the front of the chassis rails, and the sunroof. In the grand scheme of things, these items were trivial. ",
+    "url": "/bodyshell/",
+    "relUrl": "/bodyshell/"
+  },"38": {
+    "doc": "Glass",
+    "title": "Glass",
+    "content": "## Glass ",
+    "url": "/glass/",
+    "relUrl": "/glass/"
   },"39": {
     "doc": "Engine Swap",
     "title": "Engine Swap",
@@ -239,29 +239,29 @@
     "url": "/engineswap/",
     "relUrl": "/engineswap/"
   },"40": {
-    "doc": "Wiring",
-    "title": "Wiring",
-    "content": "## Wiring Loom The front-to-rear part of the loom has been rerouted from underneath the car to inside the car. I did this because I wanted to protect the loom from damage and also because I could use the space for running an extra fuel line. In addition, I've also made several other wiring improvements. ",
-    "url": "/wiring/",
-    "relUrl": "/wiring/"
-  },"41": {
-    "doc": "Body Shell",
-    "title": "Body Shell",
-    "content": "## Body Shell {% picture largethumb IMG_20180929_125152.jpg %} {: .d-inline-block .float-right .pl-5} I wouldn't normally consider buying a project in this state but the condition of the body shell was what sold it to me. The shell was solid. The inner and outer sills, castle rails and floor pan had all been replaced or had survived amazingly well from new (it had been Zeibarted at some point). The wings, scuttle and door panels had been replaced with genuine Heritage parts. The inner and outer wheel arches were rot free. The only parts of the shell that needed more than cosmetic attention were the lower rear of the rear side windows, the front of the chassis rails, and the sunroof. In the grand scheme of things, these items were trivial. ",
-    "url": "/bodyshell/",
-    "relUrl": "/bodyshell/"
-  },"42": {
     "doc": "Brakes",
     "title": "Brakes",
     "content": "## Brakes A car with an engine swap needs to have good brakes so I made sure that the braking system is in good shape with updated components where necessary ",
     "url": "/brakes/",
     "relUrl": "/brakes/"
+  },"41": {
+    "doc": "Interior",
+    "title": "Interior",
+    "content": "## Interior {% picture mediumthumb BURST20181019180633828_COVER.jpg %} {: .d-inline-block .float-right .pl-5} The car was completely gutted when I got it. There was literally no interior at all installed in the car. I did get some of it seperately in boxes but there was a lot of it missing, damaged or just worn out. For example, I don't have any carpet or door cards and it didn't have any headlining. The seats were worn out and let's be honest, even brand new they would have looked horrible. Various other trim is going to need refinishing or rebuilding. However, it's not a large or complicated interior so I see this as an ideal opportunity to make it my own. ",
+    "url": "/interior/",
+    "relUrl": "/interior/"
+  },"42": {
+    "doc": "Wiring",
+    "title": "Wiring",
+    "content": "## Wiring Loom The front-to-rear part of the loom has been rerouted from underneath the car to inside the car. I did this because I wanted to protect the loom from damage and also because I could use the space for running an extra fuel line. In addition, I've also made several other wiring improvements. ",
+    "url": "/wiring/",
+    "relUrl": "/wiring/"
   },"43": {
-    "doc": "Glass",
-    "title": "Glass",
-    "content": "## Glass ",
-    "url": "/glass/",
-    "relUrl": "/glass/"
+    "doc": "Lights",
+    "title": "Lights",
+    "content": " ",
+    "url": "/lights/",
+    "relUrl": "/lights/"
   },"44": {
     "doc": "Intake",
     "title": "Intake",
